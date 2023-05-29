@@ -14,7 +14,7 @@ export const metadata = {
 const config = {
   clientKey: process.env.PUSHER_KEY!,
   cluster: process.env.PUSHER_CLUSTER!,
-  authEndpoint: `${process.env.VERCEL_URL}/api/pusher/auth`,
+  authEndpoint: '/api/pusher/auth',
 }
 
 export default function RootLayout({
