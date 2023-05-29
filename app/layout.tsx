@@ -26,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cx(inter.className, 'h-screen', 'dark')}>
+      <body className={cx(inter.className, 'dark')}>
         <PusherProvider {...config}>
           <StatusProvider>{children}</StatusProvider>
         </PusherProvider>
