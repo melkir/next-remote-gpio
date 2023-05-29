@@ -1,6 +1,8 @@
 import { PusherProvider } from '@/components/pusher-provider'
 import { StatusProvider } from '@/components/status-context'
+import { Analytics } from '@vercel/analytics/react'
 import { cx } from 'class-variance-authority'
+
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -28,6 +30,7 @@ export default function RootLayout({
         <PusherProvider {...config}>
           <StatusProvider>{children}</StatusProvider>
         </PusherProvider>
+        <Analytics />
       </body>
     </html>
   )
