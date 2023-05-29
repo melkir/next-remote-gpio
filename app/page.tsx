@@ -5,7 +5,7 @@ import { ChevronDown, ChevronUp, CircleDot, Pause } from 'lucide-react'
 
 export default async function Home() {
   return (
-    <main className="flex flex-col items-center justify-evenly p-6 h-screen w-screen">
+    <main className="flex flex-col items-center justify-evenly px-6 h-screen w-screen">
       <Status />
       <ActionButton
         className="w-24 h-24 rounded-full p-0"
