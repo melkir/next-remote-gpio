@@ -11,10 +11,6 @@ export const metadata = {
   description: 'Control your shutters remotely',
 }
 
-const headers = new Headers()
-headers.set('CF-Access-Client-Id', process.env.CF_ACCESS_CLIENT_ID!)
-headers.set('CF-Access-Client-Secret', process.env.CF_ACCESS_CLIENT_SECRET!)
-
 const config = {
   clientKey: process.env.PUSHER_KEY!,
   cluster: process.env.PUSHER_CLUSTER!,
