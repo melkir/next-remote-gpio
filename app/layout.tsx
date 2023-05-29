@@ -1,5 +1,6 @@
 import { PusherProvider } from '@/components/pusher-provider'
 import { StatusProvider } from '@/components/status-context'
+import { ClerkProvider } from '@clerk/nextjs'
 import { Analytics } from '@vercel/analytics/react'
 import { cx } from 'class-variance-authority'
 
@@ -27,10 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cx(inter.className, 'dark')}>
-        <PusherProvider {...config}>
-          <StatusProvider>{children}</StatusProvider>
-        </PusherProvider>
-        <Analytics />
+        <ClerkProvider>
+          <PusherProvider {...config}>
+            <StatusProvider>{children}</StatusProvider>
+          </PusherProvider>
+          <Analytics />
+        </ClerkProvider>
       </body>
     </html>
   )

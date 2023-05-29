@@ -1,12 +1,20 @@
 import ActionButton from '@/components/action-button'
 import { LedButton } from '@/components/led-button'
 import Status from '@/components/status'
+import { UserButton } from '@clerk/nextjs'
+import { dark } from '@clerk/themes'
 import { ChevronDown, ChevronUp, CircleDot, Pause } from 'lucide-react'
 
 export default async function Home() {
   return (
     <main className="flex flex-col items-center justify-evenly px-6 w-screen">
       <Status />
+      <div className="fixed top-5 right-5">
+        <UserButton
+          afterSignOutUrl="/"
+          appearance={{ userProfile: { baseTheme: dark }, baseTheme: dark }}
+        />
+      </div>
       <ActionButton
         className="w-24 h-24 rounded-full p-0"
         variant="outline"
