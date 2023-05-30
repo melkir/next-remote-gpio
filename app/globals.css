@@ -79,6 +79,6 @@
     font-feature-settings: 'rlig' 1, 'calt' 1;
   }
   main {
-    min-height: 100svh;
+    min-height: 100dvh;
   }
 }
