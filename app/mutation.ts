@@ -5,8 +5,8 @@ import z from 'zod'
 
 function gpio(path: string, init?: RequestInit) {
   const headers = new Headers(init?.headers)
-  headers.set('CF-Access-Client-Id', process.env.CF_ACCESS_CLIENT_ID!)
-  headers.set('CF-Access-Client-Secret', process.env.CF_ACCESS_CLIENT_SECRET!)
+  headers.set('cf-access-client-id', process.env.CF_ACCESS_CLIENT_ID!)
+  headers.set('cf-access-client-secret', process.env.CF_ACCESS_CLIENT_SECRET!)
   return fetch(`${process.env.NEXT_PUBLIC_URL}/gpio/${path}`, {
     ...init,
     headers,
