@@ -9,7 +9,7 @@ export default async function Home() {
   return (
     <main className="flex flex-col items-center justify-evenly px-6 w-screen">
       <Status />
-      <div className="fixed top-5 right-5">
+      <div className="fixed top-10 right-5">
         <UserButton
           afterSignOutUrl="/"
           appearance={{ userProfile: { baseTheme: dark }, baseTheme: dark }}
