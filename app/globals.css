@@ -82,3 +82,16 @@
     min-height: 100dvh;
   }
 }
+
+@media (pointer: coarse) {
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button.hover\:bg-accent:hover {
+    background: transparent;
+  }
+  button.hover\:text-accent-foreground:hover {
+    color: inherit;
+  }
+}
