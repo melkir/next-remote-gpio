@@ -12,12 +12,13 @@ import { Button, ButtonProps } from './ui/button'
 
 export interface ActionButtonProps extends ButtonProps {
   action: ActionType
+  contextAction?: ActionType
 }
 
 export type ActionEvent = ActionType & { type: 'start' | 'end' }
 
 export default function ActionButton(props: ActionButtonProps) {
-  const { action, ...buttonProps } = props
+  const { action, contextAction, ...buttonProps } = props
   const [isHover, setIsHover] = useState(false)
   const { mutate } = useZact(sendCommand)
   const channel = useChannel('private-gpio')
@@ -33,6 +34,14 @@ export default function ActionButton(props: ActionButtonProps) {
     }
   })
 
+  const sendAction = async (action: ActionType) => {
+    trigger(eventName, { ...action, type: 'start' })
+    dispatch({ type: 'request' })
+    await mutate(action)
+    trigger(eventName, { ...action, type: 'end' })
+    dispatch({ type: 'idle' })
+  }
+
   return (
     <Button
       {...buttonProps}
@@ -41,13 +50,16 @@ export default function ActionButton(props: ActionButtonProps) {
         'bg-accent': isHover,
       })}
       onClick={async () => {
-        trigger(eventName, { ...action, type: 'start' })
-        dispatch({ type: 'request' })
-        await mutate(action)
-        // await sleep(5000)
-        trigger(eventName, { ...action, type: 'end' })
-        dispatch({ type: 'idle' })
+        await sendAction(action)
       }}
+      onContextMenu={
+        contextAction
+          ? async (event) => {
+              event.preventDefault()
+              await sendAction(contextAction)
+            }
+          : undefined
+      }
     />
   )
 }

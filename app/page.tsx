@@ -62,6 +62,7 @@ export default async function Home() {
         className="w-24 h-24 rounded-full p-0"
         variant="outline"
         action={{ command: 'select' }}
+        contextAction={{ command: 'select', led: 'ALL' }}
       >
         <CircleDot className="h-8 w-8" />
       </ActionButton>
