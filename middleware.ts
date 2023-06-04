@@ -1,8 +1,6 @@
 import { authMiddleware } from '@clerk/nextjs'
 
-export default authMiddleware({
-  publicRoutes: ['/gpio(.*)'],
-})
+export default authMiddleware()
 
 export const config = {
   runtime: 'experimental-edge',
