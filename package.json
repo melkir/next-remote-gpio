@@ -11,7 +11,7 @@
   "dependencies": {
     "@clerk/nextjs": "^4.19.0",
     "@clerk/themes": "^1.7.4",
-    "@ducanh2912/next-pwa": "9.5.0",
+    "@ducanh2912/next-pwa": "9.6.0",
     "@harelpls/use-pusher": "^7.2.1",
     "@radix-ui/react-slot": "^1.0.1",
     "@types/node": "20.6.1",
