@@ -15,7 +15,7 @@
     "@harelpls/use-pusher": "^7.2.1",
     "@radix-ui/react-slot": "^1.0.1",
     "@types/node": "20.8.9",
-    "@types/react": "18.2.32",
+    "@types/react": "18.2.33",
     "@types/react-dom": "18.2.14",
     "@vercel/analytics": "^1.0.1",
     "autoprefixer": "10.4.16",
