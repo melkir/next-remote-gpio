@@ -1,7 +1,8 @@
 'use server'
 
 import { gpio } from '@/lib/gpio'
-import { zact } from 'zact/server'
+import { action } from '@/lib/safe-action'
+
 import z from 'zod'
 
 const ActionSchema = z.union([
@@ -18,12 +19,12 @@ const ActionSchema = z.union([
 
 export type ActionType = z.infer<typeof ActionSchema>
 
-export const getCommand = zact(z.literal('led'))(async (command) => {
+export const getCommand = action(z.literal('led'), async (command) => {
   const response = await gpio(command)
   return await response.text()
 })
 
-export const sendCommand = zact(ActionSchema)(async ({ command, led }) => {
+export const sendCommand = action(ActionSchema, async ({ command, led }) => {
   await gpio('command', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
