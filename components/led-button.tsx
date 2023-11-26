@@ -18,7 +18,7 @@ export function LedButton(props: ActionButtonProps) {
   // It doesn't seems to work properly on their side through
   // https://pusher.com/docs/channels/server_api/webhooks#pusher-cache-miss
   useEvent(cache, 'pusher:cache_miss', async () => {
-    const led = await getCommand('led')
+    const { data: led } = await getCommand('led')
     setIsActive(led === 'ALL' || led === props.action.led)
   })
 

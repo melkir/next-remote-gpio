@@ -5,7 +5,6 @@ import { useStatusDispatch } from '@/components/status-context'
 import { cn } from '@/lib/utils'
 import { useChannel, useClientTrigger, useEvent } from '@harelpls/use-pusher'
 import { useState } from 'react'
-import { useZact } from 'zact/client'
 import { Button, ButtonProps } from './ui/button'
 
 // const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
@@ -20,7 +19,6 @@ export type ActionEvent = ActionType & { type: 'start' | 'end' }
 export default function ActionButton(props: ActionButtonProps) {
   const { action, contextAction, ...buttonProps } = props
   const [isHover, setIsHover] = useState(false)
-  const { mutate } = useZact(sendCommand)
   const channel = useChannel('private-gpio')
   const trigger = useClientTrigger(channel)
   const dispatch = useStatusDispatch()
@@ -37,7 +35,7 @@ export default function ActionButton(props: ActionButtonProps) {
   const sendAction = async (action: ActionType) => {
     trigger(eventName, { ...action, type: 'start' })
     dispatch({ type: 'request' })
-    await mutate(action)
+    await sendCommand(action)
     trigger(eventName, { ...action, type: 'end' })
     dispatch({ type: 'idle' })
   }
