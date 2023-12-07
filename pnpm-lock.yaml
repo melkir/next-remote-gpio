@@ -57,8 +57,8 @@ dependencies:
     specifier: 14.0.3
     version: 14.0.3(@babel/core@7.22.1)(react-dom@18.2.0)(react@18.2.0)
   next-safe-action:
-    specifier: 5.2.0
-    version: 5.2.0(next@14.0.3)(react@18.2.0)(zod@3.21.4)
+    specifier: 5.2.1
+    version: 5.2.1(next@14.0.3)(react@18.2.0)(zod@3.21.4)
   postcss:
     specifier: 8.4.32
     version: 8.4.32
@@ -4276,8 +4276,8 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /next-safe-action@5.2.0(next@14.0.3)(react@18.2.0)(zod@3.21.4):
-    resolution: {integrity: sha512-u6fzFLHffpW5PqBcp5eHi62abc4uozRj+8iQofMImCZJ9+Ht2N8w9123UPvU6Zlkit+KCidO6yi4HlLnzTyrHA==}
+  /next-safe-action@5.2.1(next@14.0.3)(react@18.2.0)(zod@3.21.4):
+    resolution: {integrity: sha512-ta2+e3ZOhQ4BocMsy7J1PuPOyfa3eCtIF0PzcaYMHwShHR+e3VQ3KwilYAJPK814BO/tg0dFAxk09VucGiIzHQ==}
     engines: {node: '>=16'}
     peerDependencies:
       next: '>= 14.0.0'
