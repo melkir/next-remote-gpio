@@ -75,11 +75,11 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   tailwindcss:
-    specifier: 3.3.7
-    version: 3.3.7
+    specifier: 3.4.0
+    version: 3.4.0
   tailwindcss-animate:
     specifier: ^1.0.5
-    version: 1.0.5(tailwindcss@3.3.7)
+    version: 1.0.5(tailwindcss@3.4.0)
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -5244,16 +5244,16 @@ packages:
       '@babel/runtime': 7.23.4
     dev: false
 
-  /tailwindcss-animate@1.0.5(tailwindcss@3.3.7):
+  /tailwindcss-animate@1.0.5(tailwindcss@3.4.0):
     resolution: {integrity: sha512-UU3qrOJ4lFQABY+MVADmBm+0KW3xZyhMdRvejwtXqYOL7YjHYxmuREFAZdmVG5LPe5E9CAst846SLC4j5I3dcw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
-      tailwindcss: 3.3.7
+      tailwindcss: 3.4.0
     dev: false
 
-  /tailwindcss@3.3.7:
-    resolution: {integrity: sha512-pjgQxDZPvyS/nG3ZYkyCvsbONJl7GdOejfm24iMt2ElYQQw8Jc4p0m8RdMp7mznPD0kUhfzwV3zAwa80qI0zmQ==}
+  /tailwindcss@3.4.0:
+    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
