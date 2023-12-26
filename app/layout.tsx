@@ -4,7 +4,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 import { Analytics } from '@vercel/analytics/react'
 import { cx } from 'class-variance-authority'
 
-import { Metadata } from 'next'
+import { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   applicationName: APP_NAME,
   title: APP_DEFAULT_TITLE,
   description: APP_DESCRIPTION,
-  themeColor: '#0F172A',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
@@ -38,6 +37,10 @@ export const metadata: Metadata = {
     title: APP_DEFAULT_TITLE,
     description: APP_DESCRIPTION,
   },
+}
+
+export const viewport: Viewport = {
+  themeColor: '#0F172A',
 }
 
 const config = {
