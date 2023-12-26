@@ -7,6 +7,7 @@
   "start_url": "/",
   "name": "Remote Controller",
   "short_name": "remote-controller",
+  "description": "A remote controller for your computer",
   "icons": [
     {
       "src": "/icon-192x192.png",
