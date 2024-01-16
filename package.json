@@ -16,7 +16,7 @@
     "@serwist/next": "^8.1.1",
     "@serwist/precaching": "^8.1.1",
     "@serwist/sw": "^8.1.1",
-    "@types/node": "20.11.3",
+    "@types/node": "20.11.4",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "@vercel/analytics": "^1.0.1",
