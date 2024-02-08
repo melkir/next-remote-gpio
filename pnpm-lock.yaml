@@ -63,8 +63,8 @@ dependencies:
     specifier: 14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
   next-safe-action:
-    specifier: 6.0.2
-    version: 6.0.2(ajv@8.12.0)(next@14.1.0)(react@18.2.0)
+    specifier: 6.1.0
+    version: 6.1.0(ajv@8.12.0)(next@14.1.0)(react@18.2.0)
   postcss:
     specifier: 8.4.35
     version: 8.4.35
@@ -3156,8 +3156,8 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /next-safe-action@6.0.2(ajv@8.12.0)(next@14.1.0)(react@18.2.0):
-    resolution: {integrity: sha512-czJrcw4Ov6obePv/AwUki+Z90xxFH6Gx9V5cBN/TU/cuEggxj151kTggo0h1fAiYqZEOxw5PRbDvutvm9/exaw==}
+  /next-safe-action@6.1.0(ajv@8.12.0)(next@14.1.0)(react@18.2.0):
+    resolution: {integrity: sha512-AoSTn6bCwadZg0CXoI4MHkeIQxw6PPegFvmn0Qw/h5+hPfaX4cdeXOCJjXLOy/EkMi5rf59A95RRvfyaiu212w==}
     engines: {node: '>=18.17'}
     peerDependencies:
       next: '>= 14.0.0'
