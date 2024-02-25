@@ -37,7 +37,7 @@ dependencies:
     version: 18.2.19
   '@vercel/analytics':
     specifier: ^1.0.1
-    version: 1.0.1
+    version: 1.2.2(next@14.1.0)(react@18.2.0)
   autoprefixer:
     specifier: 10.4.17
     version: 10.4.17(postcss@8.4.35)
@@ -756,10 +756,6 @@ packages:
       '@serwist/core': 8.4.4
     dev: false
 
-  /@serwist/core@8.1.1:
-    resolution: {integrity: sha512-GTs+3qgeKHxIjexrQg5iI1/c0k3/EjTvzT/SC2uZ7gEkIpQDVQAJMVBSUJe/hvs/1HOehYUYdcJNj3NOWrUeAg==}
-    dev: false
-
   /@serwist/core@8.4.4:
     resolution: {integrity: sha512-mB3XFoUFbfgxkqWUhn9khqZP9c+K3qsuY1WQazl7S00hd+JUH2We/FmNMoOpei5ydVK61rIX690ScfXO0FbjXw==}
     dev: false
@@ -801,14 +797,6 @@ packages:
       webpack: 5.90.3
     dev: false
 
-  /@serwist/precaching@8.1.1:
-    resolution: {integrity: sha512-uS0jOvklPC6g0K5FiYRoemlnPPcfsO+c5sEVmyRTszyA6mfaA2g6s3t9PxorJT1I9PSzMOfuy760TU6UjA5HlA==}
-    dependencies:
-      '@serwist/core': 8.1.1
-      '@serwist/routing': 8.1.1
-      '@serwist/strategies': 8.1.1
-    dev: false
-
   /@serwist/precaching@8.4.4:
     resolution: {integrity: sha512-2HUiDKRpHxNirH37UnIuLx6Zc6HaIAgpTE2qWT6BfzqX1Fbmn2Zk67tvBTfCITWemCw1/dUH8VzI1k6vC3XmtA==}
     dependencies:
@@ -823,22 +811,10 @@ packages:
       '@serwist/core': 8.4.4
     dev: false
 
-  /@serwist/routing@8.1.1:
-    resolution: {integrity: sha512-QSGs1jaFg2W+QBDBYAPu3dAFz2UGhX12juRoyI02jXUr4mQ5szYoGFKuMU+nOfj/1bp5x1JMJecI4ssFZkmtKg==}
-    dependencies:
-      '@serwist/core': 8.1.1
-    dev: false
-
   /@serwist/routing@8.4.4:
     resolution: {integrity: sha512-TimZ54n5UpQoJMjGdLIXQ1VJlQ669yfJ8scdfZKwRjggILJ3f1rI13N8vicetwZMGqveTz2Q9sVYIXaeQuFmQg==}
     dependencies:
       '@serwist/core': 8.4.4
-    dev: false
-
-  /@serwist/strategies@8.1.1:
-    resolution: {integrity: sha512-syObcLVYiYdeb1jNsrWNHYLXxF+UX18D+t3TibBxAN7R2qnyITICMejdN2TQqCR4a9o/OGG8S6ZRKNNF5vuwnQ==}
-    dependencies:
-      '@serwist/core': 8.1.1
     dev: false
 
   /@serwist/strategies@8.4.4:
@@ -1137,8 +1113,20 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: false
 
-  /@vercel/analytics@1.0.1:
-    resolution: {integrity: sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==}
+  /@vercel/analytics@1.2.2(next@14.1.0)(react@18.2.0):
+    resolution: {integrity: sha512-X0rctVWkQV1e5Y300ehVNqpOfSOufo7ieA5PIdna8yX/U7Vjz0GFsGf4qvAhxV02uQ2CVt7GYcrFfddXXK2Y4A==}
+    peerDependencies:
+      next: '>= 13'
+      react: ^18 || ^19
+    peerDependenciesMeta:
+      next:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      next: 14.1.0(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      server-only: 0.0.1
     dev: false
 
   /@webassemblyjs/ast@1.11.6:
@@ -3943,6 +3931,10 @@ packages:
     resolution: {integrity: sha512-Saa1xPByTTq2gdeFZYLLo+RFE35NHZkAbqZeWNd3BpzppeVisAqpDjcp8dyf6uIvEqJRd46jemmyA4iFIeVk8g==}
     dependencies:
       randombytes: 2.1.0
+    dev: false
+
+  /server-only@0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
     dev: false
 
   /set-function-name@2.0.1:
