@@ -46,7 +46,7 @@ dependencies:
     version: 0.7.0
   clsx:
     specifier: ^2.0.0
-    version: 2.0.0
+    version: 2.1.0
   encoding:
     specifier: ^0.1.13
     version: 0.1.13
@@ -756,10 +756,6 @@ packages:
       '@serwist/core': 8.4.4
     dev: false
 
-  /@serwist/core@8.1.1:
-    resolution: {integrity: sha512-GTs+3qgeKHxIjexrQg5iI1/c0k3/EjTvzT/SC2uZ7gEkIpQDVQAJMVBSUJe/hvs/1HOehYUYdcJNj3NOWrUeAg==}
-    dev: false
-
   /@serwist/core@8.4.4:
     resolution: {integrity: sha512-mB3XFoUFbfgxkqWUhn9khqZP9c+K3qsuY1WQazl7S00hd+JUH2We/FmNMoOpei5ydVK61rIX690ScfXO0FbjXw==}
     dev: false
@@ -801,14 +797,6 @@ packages:
       webpack: 5.90.3
     dev: false
 
-  /@serwist/precaching@8.1.1:
-    resolution: {integrity: sha512-uS0jOvklPC6g0K5FiYRoemlnPPcfsO+c5sEVmyRTszyA6mfaA2g6s3t9PxorJT1I9PSzMOfuy760TU6UjA5HlA==}
-    dependencies:
-      '@serwist/core': 8.1.1
-      '@serwist/routing': 8.1.1
-      '@serwist/strategies': 8.1.1
-    dev: false
-
   /@serwist/precaching@8.4.4:
     resolution: {integrity: sha512-2HUiDKRpHxNirH37UnIuLx6Zc6HaIAgpTE2qWT6BfzqX1Fbmn2Zk67tvBTfCITWemCw1/dUH8VzI1k6vC3XmtA==}
     dependencies:
@@ -823,22 +811,10 @@ packages:
       '@serwist/core': 8.4.4
     dev: false
 
-  /@serwist/routing@8.1.1:
-    resolution: {integrity: sha512-QSGs1jaFg2W+QBDBYAPu3dAFz2UGhX12juRoyI02jXUr4mQ5szYoGFKuMU+nOfj/1bp5x1JMJecI4ssFZkmtKg==}
-    dependencies:
-      '@serwist/core': 8.1.1
-    dev: false
-
   /@serwist/routing@8.4.4:
     resolution: {integrity: sha512-TimZ54n5UpQoJMjGdLIXQ1VJlQ669yfJ8scdfZKwRjggILJ3f1rI13N8vicetwZMGqveTz2Q9sVYIXaeQuFmQg==}
     dependencies:
       '@serwist/core': 8.4.4
-    dev: false
-
-  /@serwist/strategies@8.1.1:
-    resolution: {integrity: sha512-syObcLVYiYdeb1jNsrWNHYLXxF+UX18D+t3TibBxAN7R2qnyITICMejdN2TQqCR4a9o/OGG8S6ZRKNNF5vuwnQ==}
-    dependencies:
-      '@serwist/core': 8.1.1
     dev: false
 
   /@serwist/strategies@8.4.4:
@@ -1675,6 +1651,11 @@ packages:
 
   /clsx@2.0.0:
     resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /clsx@2.1.0:
+    resolution: {integrity: sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==}
     engines: {node: '>=6'}
     dev: false
 
