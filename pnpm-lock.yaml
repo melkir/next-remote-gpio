@@ -70,7 +70,7 @@ dependencies:
     version: 8.4.35
   pusher-js:
     specifier: ^8.0.2
-    version: 8.0.2
+    version: 8.3.0
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -970,10 +970,6 @@ packages:
     dependencies:
       '@types/node': 20.11.20
       form-data: 3.0.1
-    dev: false
-
-  /@types/node@14.18.48:
-    resolution: {integrity: sha512-iL0PIMwejpmuVHgfibHpfDwOdsbmB50wr21X71VnF5d7SsBF7WK+ZvP/SCcFm7Iwb9iiYSap9rlrdhToNAWdxg==}
     dev: false
 
   /@types/node@14.18.63:
@@ -3704,11 +3700,9 @@ packages:
       tweetnacl: 1.0.3
     dev: false
 
-  /pusher-js@8.0.2:
-    resolution: {integrity: sha512-LLWUHLxraa2ro3iKKOg1cLcg7Qoz9NZyxQ+uwTGDEDNtLqsaD5pUK3zbWtMHPmav5d5E0bqpjuSc3y9ycqMtjA==}
+  /pusher-js@8.3.0:
+    resolution: {integrity: sha512-6GohP06WlVeomAQQe9qWh1IDzd3+InluWt+ZUOcecVK1SEQkg6a8uYVsvxSJm7cbccfmHhE0jDkmhKIhue8vmA==}
     dependencies:
-      '@types/express-serve-static-core': 4.17.28
-      '@types/node': 14.18.48
       tweetnacl: 1.0.3
     dev: false
 
