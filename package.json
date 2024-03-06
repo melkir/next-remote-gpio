@@ -26,7 +26,7 @@
     "encoding": "^0.1.13",
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.2",
-    "lucide-react": "^0.344.0",
+    "lucide-react": "^0.348.0",
     "next": "14.1.2",
     "next-safe-action": "6.1.0",
     "postcss": "8.4.35",
