@@ -10,7 +10,7 @@ dependencies:
     version: 4.29.10(next@14.1.4)(react-dom@18.2.0)(react@18.2.0)
   '@clerk/themes':
     specifier: ^1.7.4
-    version: 1.7.10(react@18.2.0)
+    version: 1.7.11(react@18.2.0)
   '@harelpls/use-pusher':
     specifier: ^7.2.1
     version: 7.2.1(react@18.2.0)
@@ -211,22 +211,15 @@ packages:
       swr: 2.2.0(react@18.2.0)
     dev: false
 
-  /@clerk/themes@1.7.10(react@18.2.0):
-    resolution: {integrity: sha512-XJS/mA9tcClzYmbVhVUrsyikI6VnxEq180r2dTiHtQNb0UwsvJ0xdW9rMmcrKfmGe28c/CMIuu+jOt28iGOq8g==}
+  /@clerk/themes@1.7.11(react@18.2.0):
+    resolution: {integrity: sha512-ujSEb1PIvab3etaGH4t/YUgVXRQs+DC0swbiQj5R8zO+u3OoBItwyztNelOnej27kZlkCmbiwau8RFVsQqB8Qg==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16'
     dependencies:
-      '@clerk/types': 3.62.1
+      '@clerk/types': 3.63.0
       react: 18.2.0
       tslib: 2.4.1
-    dev: false
-
-  /@clerk/types@3.62.1:
-    resolution: {integrity: sha512-RmQhWB7EMZw2nE24viQG79VyEUULZYWndYew5oXiZx06DyvysMNCorDyEGRmgBbprv7bnbYhHdOtKmx8Wj0jug==}
-    engines: {node: '>=14'}
-    dependencies:
-      csstype: 3.1.1
     dev: false
 
   /@clerk/types@3.63.0:
