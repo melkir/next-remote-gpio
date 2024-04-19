@@ -94,7 +94,7 @@ importers:
         version: 5.4.5
       zod:
         specifier: ^3.22.4
-        version: 3.22.4
+        version: 3.22.5
 
 packages:
 
@@ -155,10 +155,6 @@ packages:
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16'
-
-  '@clerk/types@3.63.1':
-    resolution: {integrity: sha512-PeZrRzWApJl1BYsT/wQPtEzhDmwfqeMKWuSRcHe3Kh0Itc5Gp7w9HrrKkyMnRuzebVj4z5gX4rwJOmTD/P1DhQ==}
-    engines: {node: '>=14'}
 
   '@clerk/types@3.64.0':
     resolution: {integrity: sha512-fthhIAXaNIYQZ+82kUA00IUR8fwjewb/9sQI1J1NhoGbLp5rtxjKmNa6EQGKfcSG0svJyQ56kdSUUfawxRm5fw==}
@@ -528,8 +524,8 @@ packages:
   '@types/eslint-scope@3.7.7':
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
 
-  '@types/eslint@8.56.9':
-    resolution: {integrity: sha512-W4W3KcqzjJ0sHg2vAq9vfml6OhsJ53TcUjUqfzzZf/EChUtwspszj/S0pzMxnfRcO55/iGq47dscXw71Fxc4Zg==}
+  '@types/eslint@8.56.10':
+    resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -2499,8 +2495,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  zod@3.22.5:
+    resolution: {integrity: sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw==}
 
 snapshots:
 
@@ -2585,18 +2581,14 @@ snapshots:
       react: 18.2.0
       tslib: 2.4.1
 
-  '@clerk/types@3.63.1':
-    dependencies:
-      csstype: 3.1.1
-
   '@clerk/types@3.64.0':
     dependencies:
       csstype: 3.1.1
 
-  '@decs/typeschema@0.12.2(ajv@8.12.0)(zod@3.22.4)':
+  '@decs/typeschema@0.12.2(ajv@8.12.0)(zod@3.22.5)':
     optionalDependencies:
       ajv: 8.12.0
-      zod: 3.22.4
+      zod: 3.22.5
 
   '@eslint-community/eslint-utils@4.4.0(eslint@8.57.0)':
     dependencies:
@@ -2932,10 +2924,10 @@ snapshots:
 
   '@types/eslint-scope@3.7.7':
     dependencies:
-      '@types/eslint': 8.56.9
+      '@types/eslint': 8.56.10
       '@types/estree': 1.0.5
 
-  '@types/eslint@8.56.9':
+  '@types/eslint@8.56.10':
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.15
@@ -4364,11 +4356,11 @@ snapshots:
 
   next-safe-action@6.2.0(ajv@8.12.0)(next@14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0):
     dependencies:
-      '@decs/typeschema': 0.12.2(ajv@8.12.0)(zod@3.22.4)
+      '@decs/typeschema': 0.12.2(ajv@8.12.0)(zod@3.22.5)
       next: 14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
     optionalDependencies:
-      zod: 3.22.4
+      zod: 3.22.5
     transitivePeerDependencies:
       - '@deepkit/type'
       - '@effect/schema'
@@ -5209,4 +5201,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.22.4: {}
+  zod@3.22.5: {}
