@@ -12,7 +12,8 @@ export default async function Home() {
       <div className="fixed top-10 right-5">
         <UserButton
           afterSignOutUrl="/"
-          appearance={{ userProfile: { baseTheme: dark }, baseTheme: dark }}
+          appearance={{ baseTheme: dark }}
+          userProfileProps={{ appearance: { baseTheme: dark } }}
         />
       </div>
       <ActionButton
