@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.19.0",
-    "@clerk/themes": "^1.7.4",
+    "@clerk/themes": "^2.0.0",
     "@harelpls/use-pusher": "^7.2.1",
     "@radix-ui/react-slot": "^1.0.1",
     "@serwist/next": "^8.1.1",
