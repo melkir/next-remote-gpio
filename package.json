@@ -13,7 +13,7 @@
     "@clerk/themes": "^2.0.0",
     "@harelpls/use-pusher": "^7.2.1",
     "@radix-ui/react-slot": "^1.0.1",
-    "@serwist/next": "^8.1.1",
+    "@serwist/next": "^9.0.0",
     "@serwist/precaching": "^8.1.1",
     "@serwist/sw": "^8.1.1",
     "@types/node": "20.12.7",
