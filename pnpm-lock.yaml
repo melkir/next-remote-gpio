@@ -88,7 +88,7 @@ importers:
         version: 5.4.5
       zod:
         specifier: ^3.22.4
-        version: 3.23.3
+        version: 3.23.4
     devDependencies:
       serwist:
         specifier: ^9.0.0
@@ -2378,8 +2378,8 @@ packages:
   zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
 
-  zod@3.23.3:
-    resolution: {integrity: sha512-tPvq1B/2Yu/dh2uAIH2/BhUlUeLIUvAjr6dpL/75I0pCYefHgjhXk1o1Kob3kTU8C7yU1j396jFHlsVWFi9ogg==}
+  zod@3.23.4:
+    resolution: {integrity: sha512-/AtWOKbBgjzEYYQRNfoGKHObgfAZag6qUJX1VbHo2PRBgS+wfWagEY2mizjfyAPcGesrJOcx/wcl0L9WnVrHFw==}
 
 snapshots:
 
@@ -2457,10 +2457,10 @@ snapshots:
     dependencies:
       csstype: 3.1.1
 
-  '@decs/typeschema@0.12.2(ajv@8.12.0)(zod@3.23.3)':
+  '@decs/typeschema@0.12.2(ajv@8.12.0)(zod@3.23.4)':
     optionalDependencies:
       ajv: 8.12.0
-      zod: 3.23.3
+      zod: 3.23.4
 
   '@eslint-community/eslint-utils@4.4.0(eslint@8.57.0)':
     dependencies:
@@ -3464,15 +3464,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.8.0(eslint-import-resolver-node@0.3.7)(eslint@8.57.0):
-    dependencies:
-      debug: 3.2.7
-    optionalDependencies:
-      eslint: 8.57.0
-      eslint-import-resolver-node: 0.3.7
-    transitivePeerDependencies:
-      - supports-color
-
   eslint-plugin-import@2.28.1(@typescript-eslint/parser@5.59.6(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.0):
     dependencies:
       array-includes: 3.1.6
@@ -3510,7 +3501,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.7
-      eslint-module-utils: 2.8.0(eslint-import-resolver-node@0.3.7)(eslint@8.57.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@5.59.6(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@3.5.5(@typescript-eslint/parser@5.59.6(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.28.1)(eslint@8.57.0))(eslint@8.57.0)
       has: 1.0.3
       is-core-module: 2.13.0
       is-glob: 4.0.3
@@ -4196,11 +4187,11 @@ snapshots:
 
   next-safe-action@6.2.0(ajv@8.12.0)(next@14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0):
     dependencies:
-      '@decs/typeschema': 0.12.2(ajv@8.12.0)(zod@3.23.3)
+      '@decs/typeschema': 0.12.2(ajv@8.12.0)(zod@3.23.4)
       next: 14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
     optionalDependencies:
-      zod: 3.23.3
+      zod: 3.23.4
     transitivePeerDependencies:
       - '@deepkit/type'
       - '@effect/schema'
@@ -5027,4 +5018,4 @@ snapshots:
 
   zod@3.22.4: {}
 
-  zod@3.23.3: {}
+  zod@3.23.4: {}
