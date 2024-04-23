@@ -94,7 +94,7 @@ importers:
         version: 5.4.5
       zod:
         specifier: ^3.22.4
-        version: 3.23.0
+        version: 3.23.3
 
 packages:
 
@@ -2259,8 +2259,8 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.30.3:
-    resolution: {integrity: sha512-STdUgOUx8rLbMGO9IOwHLpCqolkDITFFQSMYYwKE1N2lY6MVSaeoi10z/EhWxRc6ybqoVmKSkhKYH/XUpl7vSA==}
+  terser@5.30.4:
+    resolution: {integrity: sha512-xRdd0v64a8mFK9bnsKVdoNP9GQIKUAaJPTaqEQDL4w/J8WaW4sWXXoMZ+6SimPkfT5bElreXf8m9HnmPc3E1BQ==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2441,8 +2441,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.23.0:
-    resolution: {integrity: sha512-OFLT+LTocvabn6q76BTwVB0hExEBS0IduTr3cqZyMqEDbOnYmcU+y0tUAYbND4uwclpBGi4I4UUBGzylWpjLGA==}
+  zod@3.23.3:
+    resolution: {integrity: sha512-tPvq1B/2Yu/dh2uAIH2/BhUlUeLIUvAjr6dpL/75I0pCYefHgjhXk1o1Kob3kTU8C7yU1j396jFHlsVWFi9ogg==}
 
 snapshots:
 
@@ -2527,10 +2527,10 @@ snapshots:
     dependencies:
       csstype: 3.1.1
 
-  '@decs/typeschema@0.12.2(ajv@8.12.0)(zod@3.23.0)':
+  '@decs/typeschema@0.12.2(ajv@8.12.0)(zod@3.23.3)':
     optionalDependencies:
       ajv: 8.12.0
-      zod: 3.23.0
+      zod: 3.23.3
 
   '@eslint-community/eslint-utils@4.4.0(eslint@8.57.0)':
     dependencies:
@@ -4308,11 +4308,11 @@ snapshots:
 
   next-safe-action@6.2.0(ajv@8.12.0)(next@14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0):
     dependencies:
-      '@decs/typeschema': 0.12.2(ajv@8.12.0)(zod@3.23.0)
+      '@decs/typeschema': 0.12.2(ajv@8.12.0)(zod@3.23.3)
       next: 14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
     optionalDependencies:
-      zod: 3.23.0
+      zod: 3.23.3
     transitivePeerDependencies:
       - '@deepkit/type'
       - '@effect/schema'
@@ -4894,10 +4894,10 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
-      terser: 5.30.3
+      terser: 5.30.4
       webpack: 5.91.0
 
-  terser@5.30.3:
+  terser@5.30.4:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.11.3
@@ -5122,4 +5122,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.23.0: {}
+  zod@3.23.3: {}
