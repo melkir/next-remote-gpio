@@ -13,7 +13,7 @@ importers:
         version: 5.0.1(eslint@8.57.0)(next@14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@harelpls/use-pusher':
         specifier: ^7.2.1
         version: 7.2.1(react@18.2.0)
@@ -143,8 +143,8 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.0.0':
-    resolution: {integrity: sha512-rMM8HDv2zKuIl/loQjDYNw4iPJQFzwjVcwu+rq7P4bOlRT1Z2kWd6eh7McMO3ZQ67mYgwR77GZF+e00z+stLPg==}
+  '@clerk/themes@2.0.1':
+    resolution: {integrity: sha512-i2v9UDHj2kFvlvhpyrq3udcMZbrMiu/xO0tfj8kH1FPvj55OpinAdmV1EBkKVez+IYuhbEzCEZe5Vkhlii6H2Q==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       react: '>=18'
@@ -152,6 +152,10 @@ packages:
 
   '@clerk/types@4.0.0':
     resolution: {integrity: sha512-my/uNzHflLYvoLR8RT3LBmYulYGkz+SOVYMdzWt14LpRHajQotnfDSq/GEkfjrBm2HXuZ82GxEDMyYtqHUKv8w==}
+    engines: {node: '>=18.17.0'}
+
+  '@clerk/types@4.1.0':
+    resolution: {integrity: sha512-e9vsD7EdQE0q9mPwPMq1kPtPC9BYGR8BucEoEu+pEyXXD5cdSkzM+WvhUonnTHNzYE/W/X5d1zFDNvCV5YfS5Q==}
     engines: {node: '>=18.17.0'}
 
   '@decs/typeschema@0.12.2':
@@ -2446,14 +2450,18 @@ snapshots:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  '@clerk/themes@2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@clerk/themes@2.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@clerk/types': 4.0.0
+      '@clerk/types': 4.1.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       tslib: 2.4.1
 
   '@clerk/types@4.0.0':
+    dependencies:
+      csstype: 3.1.1
+
+  '@clerk/types@4.1.0':
     dependencies:
       csstype: 3.1.1
 
@@ -3240,7 +3248,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.4.1
 
   eastasianwidth@0.2.0: {}
 
@@ -4128,7 +4136,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
 
   lru-cache@10.1.0: {}
 
@@ -4246,7 +4254,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.6.2
+      tslib: 2.4.1
 
   node-releases@2.0.14: {}
 
@@ -4625,7 +4633,7 @@ snapshots:
   snake-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.4.1
 
   snakecase-keys@5.4.4:
     dependencies:
