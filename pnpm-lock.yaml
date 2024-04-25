@@ -10,19 +10,19 @@ importers:
     dependencies:
       '@clerk/nextjs':
         specifier: ^5.0.0
-        version: 5.0.2(eslint@8.57.0)(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)
+        version: 5.0.2(eslint@8.57.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@harelpls/use-pusher':
         specifier: ^7.2.1
-        version: 7.2.1(react@18.2.0)
+        version: 7.2.1(react@18.3.0)
       '@radix-ui/react-slot':
         specifier: ^1.0.1
-        version: 1.0.2(@types/react@18.2.79)(react@18.2.0)
+        version: 1.0.2(@types/react@18.2.79)(react@18.3.0)
       '@serwist/next':
         specifier: ^9.0.1
-        version: 9.0.2(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(typescript@5.4.5)(webpack@5.91.0)
+        version: 9.0.2(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(typescript@5.4.5)(webpack@5.91.0)
       '@types/node':
         specifier: 20.12.7
         version: 20.12.7
@@ -34,7 +34,7 @@ importers:
         version: 18.2.25
       '@vercel/analytics':
         specifier: ^1.0.1
-        version: 1.2.2(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
+        version: 1.2.2(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react@18.3.0)
       autoprefixer:
         specifier: 10.4.19
         version: 10.4.19(postcss@8.4.38)
@@ -55,13 +55,13 @@ importers:
         version: 14.2.3(eslint@8.57.0)(typescript@5.4.5)
       lucide-react:
         specifier: ^0.373.0
-        version: 0.373.0(react@18.2.0)
+        version: 0.373.0(react@18.3.0)
       next:
         specifier: 14.2.3
-        version: 14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       next-safe-action:
         specifier: 6.2.0
-        version: 6.2.0(ajv@8.12.0)(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
+        version: 6.2.0(ajv@8.12.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react@18.3.0)
       postcss:
         specifier: 8.4.38
         version: 8.4.38
@@ -69,11 +69,11 @@ importers:
         specifier: ^8.0.2
         version: 8.3.0
       react:
-        specifier: 18.2.0
-        version: 18.2.0
+        specifier: 18.3.0
+        version: 18.3.0
       react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: 18.3.0
+        version: 18.3.0(react@18.3.0)
       tailwind-merge:
         specifier: ^2.0.0
         version: 2.3.0
@@ -1937,16 +1937,16 @@ packages:
   randombytes@2.1.0:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
 
-  react-dom@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  react-dom@18.3.0:
+    resolution: {integrity: sha512-zaKdLBftQJnvb7FtDIpZtsAIb2MZU087RM8bRDZU8LVCCFYjPTsDZJNFUWPcVz3HFSN1n/caxi0ca4B/aaVQGQ==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.0
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  react@18.3.0:
+    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -2021,8 +2021,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  scheduler@0.23.1:
+    resolution: {integrity: sha512-5GKS5JGfiah1O38Vfa9srZE4s3wdHbwjlCrvIookrg2FO9aIwKLOJXuJQFlEfNcVSOXuaL2hzDeY20uVXcUtrw==}
 
   schema-utils@3.3.0:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
@@ -2042,14 +2042,6 @@ packages:
 
   server-only@0.0.1:
     resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
-
-  serwist@9.0.0:
-    resolution: {integrity: sha512-YAgic7iS+t48TRg5XMRI781lAiY3bIN8Brr7tQDYaFnbO3Ces4fCyHMFhfOuTCXc7PqlmGYHfiquqHnIXTDawA==}
-    peerDependencies:
-      typescript: '>=5.0.0'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
 
   serwist@9.0.2:
     resolution: {integrity: sha512-36+GeVAd0nd6byRKrSVJJHdIF0mSJ+hwxPYBQKZ+8BJ9SGap9Udw4FeG1ohgbezvGteUWoOLXJwQqTl1I1BkyQ==}
@@ -2445,9 +2437,9 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@clerk/backend@1.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@clerk/backend@1.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
-      '@clerk/shared': 2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@clerk/shared': 2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       cookie: 0.5.0
       snakecase-keys: 5.4.4
       tslib: 2.4.1
@@ -2455,13 +2447,13 @@ snapshots:
       - react
       - react-dom
 
-  '@clerk/clerk-react@5.0.1(eslint@8.57.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)':
+  '@clerk/clerk-react@5.0.1(eslint@8.57.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)':
     dependencies:
-      '@clerk/shared': 2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@clerk/shared': 2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@clerk/types': 4.1.0
       eslint-config-custom: 0.0.0(eslint@8.57.0)(typescript@5.4.5)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
       tslib: 2.4.1
     transitivePeerDependencies:
       - eslint
@@ -2469,16 +2461,16 @@ snapshots:
       - supports-color
       - typescript
 
-  '@clerk/nextjs@5.0.2(eslint@8.57.0)(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)':
+  '@clerk/nextjs@5.0.2(eslint@8.57.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)':
     dependencies:
-      '@clerk/backend': 1.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@clerk/clerk-react': 5.0.1(eslint@8.57.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)
-      '@clerk/shared': 2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@clerk/backend': 1.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@clerk/clerk-react': 5.0.1(eslint@8.57.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
+      '@clerk/shared': 2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       crypto-js: 4.2.0
-      next: 14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next: 14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       path-to-regexp: 6.2.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
       tslib: 2.4.1
     transitivePeerDependencies:
       - eslint
@@ -2486,21 +2478,21 @@ snapshots:
       - supports-color
       - typescript
 
-  '@clerk/shared@2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@clerk/shared@2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
       glob-to-regexp: 0.4.1
       js-cookie: 3.0.1
       std-env: 3.7.0
-      swr: 2.2.0(react@18.2.0)
+      swr: 2.2.0(react@18.3.0)
     optionalDependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
 
-  '@clerk/themes@2.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@clerk/themes@2.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
       '@clerk/types': 4.1.0
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
       tslib: 2.4.1
 
   '@clerk/types@4.1.0':
@@ -2535,12 +2527,12 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@harelpls/use-pusher@7.2.1(react@18.2.0)':
+  '@harelpls/use-pusher@7.2.1(react@18.3.0)':
     dependencies:
       dequal: 2.0.3
       invariant: 2.2.4
       pusher-js: 7.6.0
-      react: 18.2.0
+      react: 18.3.0
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
@@ -2647,18 +2639,18 @@ snapshots:
       picocolors: 1.0.0
       tslib: 2.6.2
 
-  '@radix-ui/react-compose-refs@1.0.1(@types/react@18.2.79)(react@18.2.0)':
+  '@radix-ui/react-compose-refs@1.0.1(@types/react@18.2.79)(react@18.3.0)':
     dependencies:
       '@babel/runtime': 7.23.9
-      react: 18.2.0
+      react: 18.3.0
     optionalDependencies:
       '@types/react': 18.2.79
 
-  '@radix-ui/react-slot@1.0.2(@types/react@18.2.79)(react@18.2.0)':
+  '@radix-ui/react-slot@1.0.2(@types/react@18.2.79)(react@18.3.0)':
     dependencies:
       '@babel/runtime': 7.23.9
-      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.79)(react@18.2.0)
-      react: 18.2.0
+      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.79)(react@18.3.0)
+      react: 18.3.0
     optionalDependencies:
       '@types/react': 18.2.79
 
@@ -2726,14 +2718,14 @@ snapshots:
     optionalDependencies:
       typescript: 5.4.5
 
-  '@serwist/next@9.0.2(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(typescript@5.4.5)(webpack@5.91.0)':
+  '@serwist/next@9.0.2(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(typescript@5.4.5)(webpack@5.91.0)':
     dependencies:
       '@serwist/build': 9.0.2(typescript@5.4.5)
       '@serwist/webpack-plugin': 9.0.2(typescript@5.4.5)(webpack@5.91.0)
       '@serwist/window': 9.0.2(typescript@5.4.5)
       chalk: 5.3.0
       glob: 10.3.12
-      next: 14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next: 14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       serwist: 9.0.2(typescript@5.4.5)
       zod: 3.22.4
     optionalDependencies:
@@ -2853,12 +2845,12 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vercel/analytics@1.2.2(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)':
+  '@vercel/analytics@1.2.2(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react@18.3.0)':
     dependencies:
       server-only: 0.0.1
     optionalDependencies:
-      next: 14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react: 18.2.0
+      next: 14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      react: 18.3.0
 
   '@webassemblyjs/ast@1.12.1':
     dependencies:
@@ -4222,9 +4214,9 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  lucide-react@0.373.0(react@18.2.0):
+  lucide-react@0.373.0(react@18.3.0):
     dependencies:
-      react: 18.2.0
+      react: 18.3.0
 
   map-obj@4.3.0: {}
 
@@ -4278,11 +4270,11 @@ snapshots:
   neo-async@2.6.2:
     optional: true
 
-  next-safe-action@6.2.0(ajv@8.12.0)(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0):
+  next-safe-action@6.2.0(ajv@8.12.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react@18.3.0):
     dependencies:
       '@decs/typeschema': 0.12.2(ajv@8.12.0)(zod@3.23.4)
-      next: 14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react: 18.2.0
+      next: 14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      react: 18.3.0
     optionalDependencies:
       zod: 3.23.4
     transitivePeerDependencies:
@@ -4302,7 +4294,7 @@ snapshots:
       - vite
       - yup
 
-  next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0):
     dependencies:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
@@ -4310,9 +4302,9 @@ snapshots:
       caniuse-lite: 1.0.30001599
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
+      styled-jsx: 5.1.1(react@18.3.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.2.3
       '@next/swc-darwin-x64': 14.2.3
@@ -4535,15 +4527,15 @@ snapshots:
       safe-buffer: 5.2.1
     optional: true
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@18.3.0(react@18.3.0):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 18.3.0
+      scheduler: 0.23.1
 
   react-is@16.13.1: {}
 
-  react@18.2.0:
+  react@18.3.0:
     dependencies:
       loose-envify: 1.4.0
 
@@ -4650,7 +4642,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  scheduler@0.23.0:
+  scheduler@0.23.1:
     dependencies:
       loose-envify: 1.4.0
 
@@ -4673,12 +4665,6 @@ snapshots:
     optional: true
 
   server-only@0.0.1: {}
-
-  serwist@9.0.0(typescript@5.4.5):
-    dependencies:
-      idb: 8.0.0
-    optionalDependencies:
-      typescript: 5.4.5
 
   serwist@9.0.2(typescript@5.4.5):
     dependencies:
@@ -4815,10 +4801,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.1(react@18.2.0):
+  styled-jsx@5.1.1(react@18.3.0):
     dependencies:
       client-only: 0.0.1
-      react: 18.2.0
+      react: 18.3.0
 
   sucrase@3.32.0:
     dependencies:
@@ -4841,10 +4827,10 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  swr@2.2.0(react@18.2.0):
+  swr@2.2.0(react@18.3.0):
     dependencies:
-      react: 18.2.0
-      use-sync-external-store: 1.2.0(react@18.2.0)
+      react: 18.3.0
+      use-sync-external-store: 1.2.0(react@18.3.0)
 
   synckit@0.8.5:
     dependencies:
@@ -5015,9 +5001,9 @@ snapshots:
     dependencies:
       punycode: 2.3.0
 
-  use-sync-external-store@1.2.0(react@18.2.0):
+  use-sync-external-store@1.2.0(react@18.3.0):
     dependencies:
-      react: 18.2.0
+      react: 18.3.0
 
   util-deprecate@1.0.2: {}
 
