@@ -22,7 +22,7 @@ importers:
         version: 1.0.2(@types/react@18.2.79)(react@18.2.0)
       '@serwist/next':
         specifier: ^9.0.1
-        version: 9.0.1(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(typescript@5.4.5)(webpack@5.91.0)
+        version: 9.0.2(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(typescript@5.4.5)(webpack@5.91.0)
       '@types/node':
         specifier: 20.12.7
         version: 20.12.7
@@ -452,8 +452,8 @@ packages:
   '@rushstack/eslint-patch@1.10.2':
     resolution: {integrity: sha512-hw437iINopmQuxWPSUEvqE56NCPsiU8N4AYtfHmJFckclktzK9YQJieD3XkDCDH4OjL+C7zgPUh73R/nrcHrqw==}
 
-  '@serwist/build@9.0.1':
-    resolution: {integrity: sha512-CsNd/NS2x9Vr3afw3AeOPY8FFfPpg63vnFA4lEDtXsBrTdbCT3psI4ZcU8VE+buTsBepbSK86rnUBVd68h286Q==}
+  '@serwist/build@9.0.2':
+    resolution: {integrity: sha512-ONKBAXMLjohjWNjhG+bc+sIiKcqSfZ0ApT2M0s6l9mbCrGE8KR/p4lD32ienYbP4whvHE4ro/RQABXIUoqtZmg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: '>=5.0.0'
@@ -461,8 +461,8 @@ packages:
       typescript:
         optional: true
 
-  '@serwist/next@9.0.1':
-    resolution: {integrity: sha512-QZLNnY8BvH87BTuFjedei8ccEqG97ufL9Fzf8U9qt4mET6YW4yGMNpFP37zfPVrmiUTv/5esyNfF3jKLdl/vMA==}
+  '@serwist/next@9.0.2':
+    resolution: {integrity: sha512-VpdTxjzyDiKpBpwWKeCVItnqwXaJMw8CsMPlkZwKwX5X9uaIYrA1/tH7WRJ8x/IZVtdYz+QlCd64vObhjOkqxQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       next: '>=14.0.0'
@@ -471,8 +471,8 @@ packages:
       typescript:
         optional: true
 
-  '@serwist/webpack-plugin@9.0.1':
-    resolution: {integrity: sha512-0zvlSfYI2IJtYXAPnjCC+CjA22MKAkyb9QAveFZgWjCYcaA7FQh7fbM5p7koWJVL2B4dvdlaqpAr2XARRZcBPw==}
+  '@serwist/webpack-plugin@9.0.2':
+    resolution: {integrity: sha512-gNvr+uQBkg8uWY8d3m14X3P05o1kfMFgQPmoMZblXybKDQFNnw1ug4uU+LahXMYH1BGMYJ8cFZXKZPMVJm/8Sg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: '>=5.0.0'
@@ -483,8 +483,8 @@ packages:
       webpack:
         optional: true
 
-  '@serwist/window@9.0.1':
-    resolution: {integrity: sha512-3HvMp6qKk8pAkY0ppRUhUztBt+po3kZOHQdNNEh3q9Ex+0LK+X6Ddx93adzNtYE2qbYqEVRZu+N79bfZ8RXYTQ==}
+  '@serwist/window@9.0.2':
+    resolution: {integrity: sha512-+tQCcIdGz+3j0/PRnOAuiqoMM64EksHhPnyEb2UnODC7bTBvwGVP/iGmtTGCHClSYdVZI0w09pyGmFLlvBav7g==}
     peerDependencies:
       typescript: '>=5.0.0'
     peerDependenciesMeta:
@@ -1664,10 +1664,6 @@ packages:
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
-  minimatch@9.0.3:
-    resolution: {integrity: sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==}
-    engines: {node: '>=16 || 14 >=14.17'}
-
   minimatch@9.0.4:
     resolution: {integrity: sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -2049,6 +2045,14 @@ packages:
 
   serwist@9.0.0:
     resolution: {integrity: sha512-YAgic7iS+t48TRg5XMRI781lAiY3bIN8Brr7tQDYaFnbO3Ces4fCyHMFhfOuTCXc7PqlmGYHfiquqHnIXTDawA==}
+    peerDependencies:
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  serwist@9.0.2:
+    resolution: {integrity: sha512-36+GeVAd0nd6byRKrSVJJHdIF0mSJ+hwxPYBQKZ+8BJ9SGap9Udw4FeG1ohgbezvGteUWoOLXJwQqTl1I1BkyQ==}
     peerDependencies:
       typescript: '>=5.0.0'
     peerDependenciesMeta:
@@ -2708,7 +2712,7 @@ snapshots:
 
   '@rushstack/eslint-patch@1.10.2': {}
 
-  '@serwist/build@9.0.1(typescript@5.4.5)':
+  '@serwist/build@9.0.2(typescript@5.4.5)':
     dependencies:
       common-tags: 1.8.2
       fast-json-stable-stringify: 2.1.0
@@ -2722,24 +2726,24 @@ snapshots:
     optionalDependencies:
       typescript: 5.4.5
 
-  '@serwist/next@9.0.1(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(typescript@5.4.5)(webpack@5.91.0)':
+  '@serwist/next@9.0.2(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(typescript@5.4.5)(webpack@5.91.0)':
     dependencies:
-      '@serwist/build': 9.0.1(typescript@5.4.5)
-      '@serwist/webpack-plugin': 9.0.1(typescript@5.4.5)(webpack@5.91.0)
-      '@serwist/window': 9.0.1(typescript@5.4.5)
+      '@serwist/build': 9.0.2(typescript@5.4.5)
+      '@serwist/webpack-plugin': 9.0.2(typescript@5.4.5)(webpack@5.91.0)
+      '@serwist/window': 9.0.2(typescript@5.4.5)
       chalk: 5.3.0
       glob: 10.3.12
       next: 14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      serwist: 9.0.0(typescript@5.4.5)
+      serwist: 9.0.2(typescript@5.4.5)
       zod: 3.22.4
     optionalDependencies:
       typescript: 5.4.5
     transitivePeerDependencies:
       - webpack
 
-  '@serwist/webpack-plugin@9.0.1(typescript@5.4.5)(webpack@5.91.0)':
+  '@serwist/webpack-plugin@9.0.2(typescript@5.4.5)(webpack@5.91.0)':
     dependencies:
-      '@serwist/build': 9.0.1(typescript@5.4.5)
+      '@serwist/build': 9.0.2(typescript@5.4.5)
       pretty-bytes: 6.1.1
       upath: 2.0.1
       zod: 3.22.4
@@ -2747,10 +2751,10 @@ snapshots:
       typescript: 5.4.5
       webpack: 5.91.0
 
-  '@serwist/window@9.0.1(typescript@5.4.5)':
+  '@serwist/window@9.0.2(typescript@5.4.5)':
     dependencies:
       '@types/trusted-types': 2.0.7
-      serwist: 9.0.0(typescript@5.4.5)
+      serwist: 9.0.2(typescript@5.4.5)
     optionalDependencies:
       typescript: 5.4.5
 
@@ -3874,7 +3878,7 @@ snapshots:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       minipass: 7.0.4
       path-scurry: 1.10.2
 
@@ -4248,10 +4252,6 @@ snapshots:
   minimatch@3.1.2:
     dependencies:
       brace-expansion: 1.1.11
-
-  minimatch@9.0.3:
-    dependencies:
-      brace-expansion: 2.0.1
 
   minimatch@9.0.4:
     dependencies:
@@ -4675,6 +4675,12 @@ snapshots:
   server-only@0.0.1: {}
 
   serwist@9.0.0(typescript@5.4.5):
+    dependencies:
+      idb: 8.0.0
+    optionalDependencies:
+      typescript: 5.4.5
+
+  serwist@9.0.2(typescript@5.4.5):
     dependencies:
       idb: 8.0.0
     optionalDependencies:
