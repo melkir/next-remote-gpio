@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@clerk/nextjs':
         specifier: ^5.0.0
-        version: 5.0.2(eslint@8.57.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
+        version: 5.0.3(eslint@8.57.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
       '@clerk/themes':
         specifier: ^2.0.0
         version: 2.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -112,8 +112,8 @@ packages:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
     engines: {node: '>=6.9.0'}
 
-  '@clerk/backend@1.0.1':
-    resolution: {integrity: sha512-cfeMmgyvdAVraEun+3ZOgWsv+0cKoloF3lNThjvbshUPh4UIx0WePY28t0qFuuQIXtuyEq9iq8ia8xLwPcbHeA==}
+  '@clerk/backend@1.1.0':
+    resolution: {integrity: sha512-1qd0tKl0B0jJlmmg+o37pXSfzQHRMTk/HGPTvFGWhYCscMXjlKcXrSgDIjN3TATmOIDtA2vCT3AMxBWyVTcKmQ==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/clerk-react@5.0.1':
@@ -123,8 +123,8 @@ packages:
       react: '>=18'
       react-dom: '>=18'
 
-  '@clerk/nextjs@5.0.2':
-    resolution: {integrity: sha512-7FNV7tEzy1xMm+hG/lLT0Dh69xkd009PAZfqMQ9AHbjvrKWOTfUZOVkQTgwO7vUcj2V8DlmEmhFLIxfWie6ezA==}
+  '@clerk/nextjs@5.0.3':
+    resolution: {integrity: sha512-sTnAEHDkesmr/kwmjH3mth8I8ZBeFcYBtMIszK7Hnbx2XBs0obBDT/YGkFQOawcT2aDCsQpZ5SmPrIgCspE2yQ==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       next: ^13.5.4 || ^14.0.3
@@ -1110,6 +1110,12 @@ packages:
 
   eslint-plugin-react-hooks@4.6.0:
     resolution: {integrity: sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+
+  eslint-plugin-react-hooks@4.6.1:
+    resolution: {integrity: sha512-Ck77j8hF7l9N4S/rzSLOWEKpn994YH6iwUK8fr9mXIaQvGpQYmOnQLbiue1u5kI5T1y+gdgqosnEAO9NCz0DBg==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
@@ -2344,8 +2350,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  use-sync-external-store@1.2.0:
-    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+  use-sync-external-store@1.2.1:
+    resolution: {integrity: sha512-6MCBDr76UJmRpbF8pzP27uIoTocf3tITaMJ52mccgAhMJycuh5A/RL6mDZCTwTisj0Qfeq69FtjMCUX27U78oA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
@@ -2437,7 +2443,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@clerk/backend@1.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@clerk/backend@1.1.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
       '@clerk/shared': 2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       cookie: 0.5.0
@@ -2461,9 +2467,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@clerk/nextjs@5.0.2(eslint@8.57.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)':
+  '@clerk/nextjs@5.0.3(eslint@8.57.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)':
     dependencies:
-      '@clerk/backend': 1.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@clerk/backend': 1.1.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@clerk/clerk-react': 5.0.1(eslint@8.57.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
       '@clerk/shared': 2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       crypto-js: 4.2.0
@@ -3299,7 +3305,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.4.1
 
   eastasianwidth@0.2.0: {}
 
@@ -3439,7 +3445,7 @@ snapshots:
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.57.0)
       eslint-plugin-react: 7.34.1(eslint@8.57.0)
-      eslint-plugin-react-hooks: 4.6.0(eslint@8.57.0)
+      eslint-plugin-react-hooks: 4.6.1(eslint@8.57.0)
     optionalDependencies:
       typescript: 5.4.5
     transitivePeerDependencies:
@@ -3610,6 +3616,10 @@ snapshots:
       object.fromentries: 2.0.8
 
   eslint-plugin-react-hooks@4.6.0(eslint@8.57.0):
+    dependencies:
+      eslint: 8.57.0
+
+  eslint-plugin-react-hooks@4.6.1(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
 
@@ -4206,7 +4216,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
 
   lru-cache@10.2.0: {}
 
@@ -4322,7 +4332,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.6.2
+      tslib: 2.4.1
 
   node-releases@2.0.14: {}
 
@@ -4712,7 +4722,7 @@ snapshots:
   snake-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.4.1
 
   snakecase-keys@5.4.4:
     dependencies:
@@ -4830,7 +4840,7 @@ snapshots:
   swr@2.2.0(react@18.3.0):
     dependencies:
       react: 18.3.0
-      use-sync-external-store: 1.2.0(react@18.3.0)
+      use-sync-external-store: 1.2.1(react@18.3.0)
 
   synckit@0.8.5:
     dependencies:
@@ -5001,7 +5011,7 @@ snapshots:
     dependencies:
       punycode: 2.3.0
 
-  use-sync-external-store@1.2.0(react@18.3.0):
+  use-sync-external-store@1.2.1(react@18.3.0):
     dependencies:
       react: 18.3.0
 
