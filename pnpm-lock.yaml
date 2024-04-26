@@ -13,7 +13,7 @@ importers:
         version: 5.0.3(eslint@8.57.0)(next@14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+        version: 2.1.0
       '@harelpls/use-pusher':
         specifier: ^7.2.1
         version: 7.2.1(react@18.3.0)
@@ -143,12 +143,9 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.0.1':
-    resolution: {integrity: sha512-i2v9UDHj2kFvlvhpyrq3udcMZbrMiu/xO0tfj8kH1FPvj55OpinAdmV1EBkKVez+IYuhbEzCEZe5Vkhlii6H2Q==}
+  '@clerk/themes@2.1.0':
+    resolution: {integrity: sha512-6VkDNMDZuBtGV2bs0w2kdV2RFX6wS/RYWPOsab+pCx742MYKRTN5tp/Tj5M4GljOXR1hbAH/UEGt/zkRXXYYDQ==}
     engines: {node: '>=18.17.0'}
-    peerDependencies:
-      react: '>=18'
-      react-dom: '>=18'
 
   '@clerk/types@4.1.0':
     resolution: {integrity: sha512-e9vsD7EdQE0q9mPwPMq1kPtPC9BYGR8BucEoEu+pEyXXD5cdSkzM+WvhUonnTHNzYE/W/X5d1zFDNvCV5YfS5Q==}
@@ -2494,11 +2491,9 @@ snapshots:
       react: 18.3.0
       react-dom: 18.3.0(react@18.3.0)
 
-  '@clerk/themes@2.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@clerk/themes@2.1.0':
     dependencies:
       '@clerk/types': 4.1.0
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
       tslib: 2.4.1
 
   '@clerk/types@4.1.0':
