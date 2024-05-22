@@ -13,7 +13,7 @@ importers:
         version: 5.0.12(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.1.6
+        version: 2.1.7
       '@harelpls/use-pusher':
         specifier: ^7.2.1
         version: 7.2.1(react@18.3.1)
@@ -143,12 +143,16 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.1.6':
-    resolution: {integrity: sha512-KEn0lOMzDOBvMeEYhOIp4oi7TjsY0mZz31COFcc6mSEguGU2KM700ZTNgZ8nbtQEtJVytXG+ajQ7jstPuzMDYA==}
+  '@clerk/themes@2.1.7':
+    resolution: {integrity: sha512-BHXRW1dSD70kwaQwmzhIKT18kzGgGHiT7o8s9TOMRs2I2KrQh25Oz5J0RVfqpRMhMxfbl4bubf/xMXAmgGgm/w==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.4.0':
     resolution: {integrity: sha512-OaT02uLG1P/jBFNyoPM3n9nLdV4H0etTpa/l3iTW4IgOLiAINToLpMOvEpWzKWUq9nvmOouZlBzPVMozu7dwDg==}
+    engines: {node: '>=18.17.0'}
+
+  '@clerk/types@4.5.0':
+    resolution: {integrity: sha512-g+CulWZq/HG9uhYFkXr8n9e376zZKY7elhW8/vXKJHDQEYeBmcUAkDgtgYXOU9OtXNS8xTbnhAwScn1bk1pRNg==}
     engines: {node: '>=18.17.0'}
 
   '@decs/typeschema@0.12.2':
@@ -999,8 +1003,8 @@ packages:
     resolution: {integrity: sha512-scxAJaewsahbqTYrGKJihhViaM6DDZDDoucfvzNbK0pOren1g/daDQ3IAhzn+1G14rBG7w+i5N+qul60++zlKA==}
     engines: {node: '>= 0.4'}
 
-  es-module-lexer@1.5.2:
-    resolution: {integrity: sha512-l60ETUTmLqbVbVHv1J4/qj+M8nq7AwMzEcg3kmJDt9dCNrTk+yHcYFf/Kw75pMDwd9mPcIGCG5LcS20SxYRzFA==}
+  es-module-lexer@1.5.3:
+    resolution: {integrity: sha512-i1gCgmR9dCl6Vil6UKPI/trA69s08g/syhiDK9TG0Nf1RJjjFI+AzoWW7sPufzkgYAn861skuCwJa0pIIHYxvg==}
 
   es-object-atoms@1.0.0:
     resolution: {integrity: sha512-MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==}
@@ -2441,12 +2445,16 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@clerk/themes@2.1.6':
+  '@clerk/themes@2.1.7':
     dependencies:
-      '@clerk/types': 4.4.0
+      '@clerk/types': 4.5.0
       tslib: 2.4.1
 
   '@clerk/types@4.4.0':
+    dependencies:
+      csstype: 3.1.1
+
+  '@clerk/types@4.5.0':
     dependencies:
       csstype: 3.1.1
 
@@ -3343,7 +3351,7 @@ snapshots:
       iterator.prototype: 1.1.2
       safe-array-concat: 1.1.2
 
-  es-module-lexer@1.5.2:
+  es-module-lexer@1.5.3:
     optional: true
 
   es-object-atoms@1.0.0:
@@ -4867,7 +4875,7 @@ snapshots:
       browserslist: 4.23.0
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.16.1
-      es-module-lexer: 1.5.2
+      es-module-lexer: 1.5.3
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
