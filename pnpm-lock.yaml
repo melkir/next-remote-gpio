@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@clerk/nextjs':
         specifier: ^5.0.0
-        version: 5.1.5(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 5.1.6(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@clerk/themes':
         specifier: ^2.0.0
         version: 2.1.9
@@ -108,27 +108,27 @@ packages:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
     engines: {node: '>=6.9.0'}
 
-  '@clerk/backend@1.2.3':
-    resolution: {integrity: sha512-tj812eTTn2ewXMgr4jwFjpqoXZRF2LMw9UBT+Nat0lmXw55sDA5ou2McLZ67e62WNZwbrCUa51MGKSBhrWnZcA==}
+  '@clerk/backend@1.2.4':
+    resolution: {integrity: sha512-H6K1kHPaDFM6pBdwDAHh1jWSZxCWhGPzDmqgc7LByjqKS6RZUf3cs5mJkIXyopUpHY7wvwj50vSF0xJ46MEzNA==}
     engines: {node: '>=18.17.0'}
 
-  '@clerk/clerk-react@5.2.4':
-    resolution: {integrity: sha512-TaSjf3pdxUKQIDmwi6JkJDVGwHbs7pTeiwEr2/JksMrQnW6zMIutsEhJfW10dY1hOwJeDoSxGCkHw+7Br2rktw==}
+  '@clerk/clerk-react@5.2.5':
+    resolution: {integrity: sha512-Ihf1t2LdWTagW3U5BH5KRwQ8i+ECaZGEUymhJ89eZA+Ux5iXwLfOIBdwCIs45gbVuFiQ8WK0W00eaDgsNaf1mw==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       react: '>=18 || >=19.0.0-beta'
       react-dom: '>=18 || >=19.0.0-beta'
 
-  '@clerk/nextjs@5.1.5':
-    resolution: {integrity: sha512-q/4PvWrIt4cO9dwgUyJ/gN/fWbS2GnfKK7j32cn6LBObVqUIiQ+J5Q+lp75q+tzIHyxFJx+MNNTnFif2OrvV6A==}
+  '@clerk/nextjs@5.1.6':
+    resolution: {integrity: sha512-HAxDzvVJ6EM99NbxNYOvMfGSSFEXyz+yPo1ER7RoV95sTH61PZ4ugsg+Ml0AhjQ60j3xUU/BPhQEYogGxvQzEA==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       next: ^13.5.4 || ^14.0.3 || >=15.0.0-rc
       react: '>=18 || >=19.0.0-beta'
       react-dom: '>=18 || >=19.0.0-beta'
 
-  '@clerk/shared@2.3.0':
-    resolution: {integrity: sha512-V/49MoOrALzpu0BbhYDCcKQYIjrHnhRa7QFho9+4wm94oCJgc9j3N5wxndJwj3Ur/fmIyBnjwMzDAT2nZZj47g==}
+  '@clerk/shared@2.3.1':
+    resolution: {integrity: sha512-WX7cCViYqkNMnbFfT2B93ykNcSseoYM1obMUynO60VBl9Zi6Epde5tn9VRamhuOdojgPR+DyYkH9AzBpXFYnSg==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       react: '>=18 || >=19.0.0-beta'
@@ -145,6 +145,10 @@ packages:
 
   '@clerk/types@4.6.0':
     resolution: {integrity: sha512-kowqVGqLfu0Zl2Pteum70MfkGHqBUoHHeR+u2+yWVl1lKHLCiyY1u8ntYBEIolAylBaQNDuRzxyMIDPSxjPE8g==}
+    engines: {node: '>=18.17.0'}
+
+  '@clerk/types@4.6.1':
+    resolution: {integrity: sha512-QFeNKPYDmTJ88l5QYG0SPwbABk42wRMalW3M/wAtr+wnQxBCXyX2XRZe9h4g2rH1VF+wG4Xe56abeeD+xE4iEw==}
     engines: {node: '>=18.17.0'}
 
   '@decs/typeschema@0.12.2':
@@ -975,8 +979,8 @@ packages:
   electron-to-chromium@1.4.682:
     resolution: {integrity: sha512-oCglfs8yYKs9RQjJFOHonSnhikPK3y+0SvSYc/YpYJV//6rqc0/hbwd0c7vgK4vrl6y2gJAwjkhkSGWK+z4KRA==}
 
-  electron-to-chromium@1.4.806:
-    resolution: {integrity: sha512-nkoEX2QIB8kwCOtvtgwhXWy2IHVcOLQZu9Qo36uaGB835mdX/h8uLRlosL6QIhLVUnAiicXRW00PwaPZC74Nrg==}
+  electron-to-chromium@1.4.807:
+    resolution: {integrity: sha512-kSmJl2ZwhNf/bcIuCH/imtNOKlpkLDn2jqT5FJ+/0CXjhnFaOa9cOe9gHKKy71eM49izwuQjZhKk+lWQ1JxB7A==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2409,10 +2413,10 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@clerk/backend@1.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/backend@1.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/shared': 2.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/types': 4.6.0
+      '@clerk/shared': 2.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/types': 4.6.1
       cookie: 0.5.0
       snakecase-keys: 5.4.4
       tslib: 2.4.1
@@ -2420,20 +2424,20 @@ snapshots:
       - react
       - react-dom
 
-  '@clerk/clerk-react@5.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/clerk-react@5.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/shared': 2.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/types': 4.6.0
+      '@clerk/shared': 2.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/types': 4.6.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.4.1
 
-  '@clerk/nextjs@5.1.5(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/nextjs@5.1.6(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/backend': 1.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/clerk-react': 5.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/shared': 2.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/types': 4.6.0
+      '@clerk/backend': 1.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/clerk-react': 5.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/shared': 2.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/types': 4.6.1
       crypto-js: 4.2.0
       next: 14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       path-to-regexp: 6.2.2
@@ -2441,9 +2445,9 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.4.1
 
-  '@clerk/shared@2.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/shared@2.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/types': 4.6.0
+      '@clerk/types': 4.6.1
       glob-to-regexp: 0.4.1
       js-cookie: 3.0.5
       std-env: 3.7.0
@@ -2458,6 +2462,10 @@ snapshots:
       tslib: 2.4.1
 
   '@clerk/types@4.6.0':
+    dependencies:
+      csstype: 3.1.1
+
+  '@clerk/types@4.6.1':
     dependencies:
       csstype: 3.1.1
 
@@ -3093,7 +3101,7 @@ snapshots:
   browserslist@4.23.1:
     dependencies:
       caniuse-lite: 1.0.30001636
-      electron-to-chromium: 1.4.806
+      electron-to-chromium: 1.4.807
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.1)
     optional: true
@@ -3274,7 +3282,7 @@ snapshots:
 
   electron-to-chromium@1.4.682: {}
 
-  electron-to-chromium@1.4.806:
+  electron-to-chromium@1.4.807:
     optional: true
 
   emoji-regex@8.0.0: {}
