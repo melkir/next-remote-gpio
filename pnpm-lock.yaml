@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.3(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.5.2)(webpack@5.91.0)
       '@trpc/server':
-        specifier: 11.0.0-rc.403
-        version: 11.0.0-rc.403
+        specifier: 11.0.0-rc.417
+        version: 11.0.0-rc.417
       '@types/node':
         specifier: 20.14.7
         version: 20.14.7
@@ -435,8 +435,8 @@ packages:
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
 
-  '@trpc/server@11.0.0-rc.403':
-    resolution: {integrity: sha512-DIt0GijW3nzq3zk9rFw1Ly/b6E9eTcsKV+caOMSeJl6A7Pby8QpdKaN8yJZDHhEojULeIVFNE4Izals5T0fQgg==}
+  '@trpc/server@11.0.0-rc.417':
+    resolution: {integrity: sha512-7zbL/ynMC66fqrrOE3/WTSaXJhijPgJ0ZN/Y0SPIx0ylk/DNsZVhGbR80IOKDvj2HJCeXE+eueGp03ziZHM8xw==}
 
   '@types/eslint-scope@3.7.7':
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
@@ -2640,7 +2640,7 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.6.3
 
-  '@trpc/server@11.0.0-rc.403': {}
+  '@trpc/server@11.0.0-rc.417': {}
 
   '@types/eslint-scope@3.7.7':
     dependencies:
