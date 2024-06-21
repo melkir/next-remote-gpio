@@ -1,6 +1,6 @@
 'use client'
 
-import { ActionType, sendCommand } from '@/app/mutation'
+import { ActionType, sendCommand } from '@/app/_actions'
 import { useStatusDispatch } from '@/components/status-context'
 import { cn } from '@/lib/utils'
 import { useChannel, useClientTrigger, useEvent } from '@harelpls/use-pusher'

@@ -1,6 +1,6 @@
 'use client'
 
-import { getCommand } from '@/app/mutation'
+import { getCommand } from '@/app/_actions'
 import { useChannel, useEvent } from '@harelpls/use-pusher'
 import { Circle } from 'lucide-react'
 import { useState } from 'react'
@@ -18,7 +18,7 @@ export function LedButton(props: ActionButtonProps) {
   // It doesn't seems to work properly on their side through
   // https://pusher.com/docs/channels/server_api/webhooks#pusher-cache-miss
   useEvent(cache, 'pusher:cache_miss', async () => {
-    const { data: led } = await getCommand('led')
+    const led = await getCommand('led')
     setIsActive(led === 'ALL' || led === props.action.led)
   })
 
