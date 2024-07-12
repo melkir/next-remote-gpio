@@ -14,7 +14,7 @@
     "@harelpls/use-pusher": "^7.2.1",
     "@radix-ui/react-slot": "^1.0.1",
     "@serwist/next": "^9.0.1",
-    "@trpc/server": "11.0.0-rc.456",
+    "@trpc/server": "11.0.0-rc.458",
     "@types/node": "20.14.10",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
