@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@clerk/nextjs':
         specifier: ^5.0.0
-        version: 5.2.3(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 5.2.4(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@clerk/themes':
         specifier: ^2.0.0
         version: 2.1.10
@@ -108,27 +108,27 @@ packages:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
     engines: {node: '>=6.9.0'}
 
-  '@clerk/backend@1.3.1':
-    resolution: {integrity: sha512-6/gaj9lDovtBpj+abK4XCNsoLvRmf2IcOAf+tcEGt9ngx5YeUavWoHTWL0jX4wsxXUzUW7GqKAswJJxIlvP1PA==}
+  '@clerk/backend@1.3.2':
+    resolution: {integrity: sha512-PT/CejuGK0b7+iKFc59myFcYCEpTmqCjSjw7jG0G3fhBo8LWn+Pfv5f7udndrYI+RFP0Jbcv+2nnW6etHXErGA==}
     engines: {node: '>=18.17.0'}
 
-  '@clerk/clerk-react@5.2.7':
-    resolution: {integrity: sha512-8gPS/N0D1ooGg92lrSsAN9nKZEVE1b/nfZGtgEZX9epQ47nD+geThAC1G+mc3hABNkIODvIyecKTLbsk0K+LfA==}
+  '@clerk/clerk-react@5.2.8':
+    resolution: {integrity: sha512-OMwlqhbJlSNHHON6ybB5HebtUKp25B4I2j9v4hwLsU392r14a14SoYlwNPTNAit/oQrcaz9YtAlKED3CSN/4yQ==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       react: '>=18 || >=19.0.0-beta'
       react-dom: '>=18 || >=19.0.0-beta'
 
-  '@clerk/nextjs@5.2.3':
-    resolution: {integrity: sha512-BRZ50sS3SWWUu8RqAdEaWD6Ib6EIpJ91BZuvGyn/dkXLU096W3hhwQInAe6CA3GrvxKIwLqUMgO7Ahof4OR/xA==}
+  '@clerk/nextjs@5.2.4':
+    resolution: {integrity: sha512-QqDcI4/fxZ+o5hFGi+HTGxp4LqLClooo/GW4hJJOAsCfpKs0uSyTbvgAG+aRhoUol5szJBfbPthqcgylQSfCGw==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       next: ^13.5.4 || ^14.0.3 || >=15.0.0-rc
       react: '>=18 || >=19.0.0-beta'
       react-dom: '>=18 || >=19.0.0-beta'
 
-  '@clerk/shared@2.3.2':
-    resolution: {integrity: sha512-uOTYqSmxe41Ye8TnyPtthwLp5rrYK5Ze04bvl1SQzlIibr4qeLU2DXZOYibMnSWvIMwr45pXUHsJh8NfKKIZ2w==}
+  '@clerk/shared@2.3.3':
+    resolution: {integrity: sha512-shUmoHQNkaiQer2KS++RKXwgA1tqLAXdwFed/AmoHHqkF2jeBDYcJe14LDLveSqt2gzp6IAFcaz2IAZlWxENsw==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       react: '>=18 || >=19.0.0-beta'
@@ -147,8 +147,8 @@ packages:
     resolution: {integrity: sha512-QFeNKPYDmTJ88l5QYG0SPwbABk42wRMalW3M/wAtr+wnQxBCXyX2XRZe9h4g2rH1VF+wG4Xe56abeeD+xE4iEw==}
     engines: {node: '>=18.17.0'}
 
-  '@clerk/types@4.7.0':
-    resolution: {integrity: sha512-Gg4zEZLE7wgByMhgHMU69tkIEwfiFKNSbtRwdtAwrW+Pg0blpVpw7XuN0wHNAYFM2COrrKEUaGt8KWZmmdTFbg==}
+  '@clerk/types@4.8.0':
+    resolution: {integrity: sha512-UjirfALJOWeuRSz+SvTujexlvIXvMC1VzvYlcNmSF0E9wcAcPJnzboLM+SlNTG7p1JMlL4bd0dipsFyWTJsq5A==}
     engines: {node: '>=18.17.0'}
 
   '@eslint-community/eslint-utils@4.4.0':
@@ -763,8 +763,8 @@ packages:
   caniuse-lite@1.0.30001640:
     resolution: {integrity: sha512-lA4VMpW0PSUrFnkmVuEKBUovSWKhj7puyCg8StBChgu298N1AtuF1sKWEvfDuimSEDbhlb/KqPKC3fs1HbuQUA==}
 
-  caniuse-lite@1.0.30001641:
-    resolution: {integrity: sha512-Phv5thgl67bHYo1TtMY/MurjkHhV4EDaCosezRXgZ8jzA/Ub+wjxAvbGvjoFENStinwi5kCyOYV3mi5tOGykwA==}
+  caniuse-lite@1.0.30001642:
+    resolution: {integrity: sha512-3XQ0DoRgLijXJErLSl+bLnJ+Et4KqV1PY6JJBGAFlsNsz31zeAIncyeZfLCabHK/jtSh+671RM9YMldxjUPZtA==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -925,8 +925,8 @@ packages:
   electron-to-chromium@1.4.682:
     resolution: {integrity: sha512-oCglfs8yYKs9RQjJFOHonSnhikPK3y+0SvSYc/YpYJV//6rqc0/hbwd0c7vgK4vrl6y2gJAwjkhkSGWK+z4KRA==}
 
-  electron-to-chromium@1.4.827:
-    resolution: {integrity: sha512-VY+J0e4SFcNfQy19MEoMdaIcZLmDCprqvBtkii1WTCTQHpRvf5N8+3kTYCgL/PcntvwQvmMJWTuDPsq+IlhWKQ==}
+  electron-to-chromium@1.4.828:
+    resolution: {integrity: sha512-QOIJiWpQJDHAVO4P58pwb133Cwee0nbvy/MV1CwzZVGpkH1RX33N3vsaWRCpR6bF63AAq366neZrRTu7Qlsbbw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2143,8 +2143,8 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.31.2:
-    resolution: {integrity: sha512-LGyRZVFm/QElZHy/CPr/O4eNZOZIzsrQ92y4v9UJe/pFJjypje2yI3C2FmPtvUEnhadlSbmG2nXtdcjHOjCfxw==}
+  terser@5.31.3:
+    resolution: {integrity: sha512-pAfYn3NIZLyZpa83ZKigvj6Rn9c/vd5KfYGX7cN1mnzqgDcxWvrU5ZtAfIKhEXz9nRecw4z3LXkjaq96/qZqAA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2345,10 +2345,10 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@clerk/backend@1.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/backend@1.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/shared': 2.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/types': 4.7.0
+      '@clerk/shared': 2.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/types': 4.8.0
       cookie: 0.5.0
       snakecase-keys: 5.4.4
       tslib: 2.4.1
@@ -2356,20 +2356,20 @@ snapshots:
       - react
       - react-dom
 
-  '@clerk/clerk-react@5.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/clerk-react@5.2.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/shared': 2.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/types': 4.7.0
+      '@clerk/shared': 2.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/types': 4.8.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.4.1
 
-  '@clerk/nextjs@5.2.3(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/nextjs@5.2.4(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/backend': 1.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/clerk-react': 5.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/shared': 2.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/types': 4.7.0
+      '@clerk/backend': 1.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/clerk-react': 5.2.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/shared': 2.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/types': 4.8.0
       crypto-js: 4.2.0
       next: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       path-to-regexp: 6.2.2
@@ -2377,9 +2377,9 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.4.1
 
-  '@clerk/shared@2.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/shared@2.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/types': 4.7.0
+      '@clerk/types': 4.8.0
       glob-to-regexp: 0.4.1
       js-cookie: 3.0.5
       std-env: 3.7.0
@@ -2397,7 +2397,7 @@ snapshots:
     dependencies:
       csstype: 3.1.1
 
-  '@clerk/types@4.7.0':
+  '@clerk/types@4.8.0':
     dependencies:
       csstype: 3.1.1
 
@@ -3021,8 +3021,8 @@ snapshots:
 
   browserslist@4.23.2:
     dependencies:
-      caniuse-lite: 1.0.30001641
-      electron-to-chromium: 1.4.827
+      caniuse-lite: 1.0.30001642
+      electron-to-chromium: 1.4.828
       node-releases: 2.0.14
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
     optional: true
@@ -3054,7 +3054,7 @@ snapshots:
 
   caniuse-lite@1.0.30001640: {}
 
-  caniuse-lite@1.0.30001641:
+  caniuse-lite@1.0.30001642:
     optional: true
 
   chalk@4.1.2:
@@ -3203,7 +3203,7 @@ snapshots:
 
   electron-to-chromium@1.4.682: {}
 
-  electron-to-chromium@1.4.827:
+  electron-to-chromium@1.4.828:
     optional: true
 
   emoji-regex@8.0.0: {}
@@ -4629,11 +4629,11 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
-      terser: 5.31.2
+      terser: 5.31.3
       webpack: 5.91.0
     optional: true
 
-  terser@5.31.2:
+  terser@5.31.3:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.12.1
