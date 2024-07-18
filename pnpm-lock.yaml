@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.5(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.5.3)(webpack@5.91.0)
       '@trpc/server':
-        specifier: 11.0.0-rc.465
-        version: 11.0.0-rc.465
+        specifier: 11.0.0-rc.466
+        version: 11.0.0-rc.466
       '@types/node':
         specifier: 20.14.11
         version: 20.14.11
@@ -435,8 +435,8 @@ packages:
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
 
-  '@trpc/server@11.0.0-rc.465':
-    resolution: {integrity: sha512-810SGzWuUvA+qQvTU8t3IzU7gOPFwXVjczyOlQTI4MkUG1aphrX6IscaybuC1qreg6M7g8LjrOhD1Kiq0Mx8pw==}
+  '@trpc/server@11.0.0-rc.466':
+    resolution: {integrity: sha512-/40QZXyZCc3HvgJbQ2+IqCGm4m+fJs7q7gMp6nLiuPB3FIJJeV0r+w1M/NGcG5avbCJ3A5Qy45s4N1glcMv1ug==}
 
   '@types/eslint-scope@3.7.7':
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
@@ -1959,14 +1959,6 @@ packages:
   server-only@0.0.1:
     resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
 
-  serwist@9.0.4:
-    resolution: {integrity: sha512-lix5Hz5OFQjUqWeAIMLCOh7rYtcmQhz7v97zxfiXgONTVqImyGk5w+yaZrQiXZqABZD/i1uY1Ieb1h969lkLNw==}
-    peerDependencies:
-      typescript: '>=5.0.0'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-
   serwist@9.0.5:
     resolution: {integrity: sha512-N2pf50MxsqHtL14FaLndXE2sbVvuBhyidruLvDrKIwGM0SOCTDBnWNnykLkgw1nDv4XEVgzqKtm8v1fdngPKtg==}
     peerDependencies:
@@ -2659,7 +2651,7 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.6.3
 
-  '@trpc/server@11.0.0-rc.465': {}
+  '@trpc/server@11.0.0-rc.466': {}
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -4441,12 +4433,6 @@ snapshots:
     optional: true
 
   server-only@0.0.1: {}
-
-  serwist@9.0.4(typescript@5.5.3):
-    dependencies:
-      idb: 8.0.0
-    optionalDependencies:
-      typescript: 5.5.3
 
   serwist@9.0.5(typescript@5.5.3):
     dependencies:
