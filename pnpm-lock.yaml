@@ -13,7 +13,7 @@ importers:
         version: 5.2.6(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.1.13
+        version: 2.1.14
       '@harelpls/use-pusher':
         specifier: ^7.2.1
         version: 7.2.1(react@18.3.1)
@@ -139,12 +139,16 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.1.13':
-    resolution: {integrity: sha512-sX9jM8kZtImg71dRKENVdIXcue55tFD4RzNNpqLspfPB7Xa+06F1tUC7lIlRU9pGgkLyHmAg/qd3mnFA+TJyHg==}
+  '@clerk/themes@2.1.14':
+    resolution: {integrity: sha512-j0nZ7cDmn5XBWg/bx8msvlPnoNZCTb6ovfhldvCxy0/VVn6v1zDwSgJM3hVVPKwdM20tNNMvhWrseS4248jgTg==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.9.0':
     resolution: {integrity: sha512-t+PDtVItnwit8u+YefMBVfJVdENdRAndMiIwGGJgnZ7+DyPjOwqomVy3VmcyycUdkdHcnx16UKm3a0rh2JQG/w==}
+    engines: {node: '>=18.17.0'}
+
+  '@clerk/types@4.9.1':
+    resolution: {integrity: sha512-fCmqzPBFh0rH9TlUVPpvPW225DtGJDuCv5GecwuuzD8hcgwGetTfRSDRNl5Dub5aJuqYWGQQCCnKfnfCrhZvrA==}
     engines: {node: '>=18.17.0'}
 
   '@eslint-community/eslint-utils@4.4.0':
@@ -921,8 +925,8 @@ packages:
   electron-to-chromium@1.4.682:
     resolution: {integrity: sha512-oCglfs8yYKs9RQjJFOHonSnhikPK3y+0SvSYc/YpYJV//6rqc0/hbwd0c7vgK4vrl6y2gJAwjkhkSGWK+z4KRA==}
 
-  electron-to-chromium@1.5.0:
-    resolution: {integrity: sha512-Vb3xHHYnLseK8vlMJQKJYXJ++t4u1/qJ3vykuVrVjvdiOEhYyT1AuP4x03G8EnPmYvYOhe9T+dADTmthjRQMkA==}
+  electron-to-chromium@1.5.2:
+    resolution: {integrity: sha512-kc4r3U3V3WLaaZqThjYz/Y6z8tJe+7K0bbjUVo3i+LWIypVdMx5nXCkwRe6SWbY6ILqLdc1rKcKmr3HoH7wjSQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2396,12 +2400,16 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@clerk/themes@2.1.13':
+  '@clerk/themes@2.1.14':
     dependencies:
-      '@clerk/types': 4.9.0
+      '@clerk/types': 4.9.1
       tslib: 2.4.1
 
   '@clerk/types@4.9.0':
+    dependencies:
+      csstype: 3.1.1
+
+  '@clerk/types@4.9.1':
     dependencies:
       csstype: 3.1.1
 
@@ -3026,7 +3034,7 @@ snapshots:
   browserslist@4.23.2:
     dependencies:
       caniuse-lite: 1.0.30001643
-      electron-to-chromium: 1.5.0
+      electron-to-chromium: 1.5.2
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
     optional: true
@@ -3207,7 +3215,7 @@ snapshots:
 
   electron-to-chromium@1.4.682: {}
 
-  electron-to-chromium@1.5.0:
+  electron-to-chromium@1.5.2:
     optional: true
 
   emoji-regex@8.0.0: {}
