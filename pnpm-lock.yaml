@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.7(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.5.4)
       '@trpc/server':
-        specifier: 11.0.0-rc.489
-        version: 11.0.0-rc.489
+        specifier: 11.0.0-rc.490
+        version: 11.0.0-rc.490
       '@types/node':
         specifier: 20.16.2
         version: 20.16.2
@@ -133,10 +133,6 @@ packages:
 
   '@clerk/themes@2.1.25':
     resolution: {integrity: sha512-Cx5h6cmslRYbmF415xpUzmAjhcWwwC9gyjAWMCVlQOyQmzfn8X1w6vc0qdE4HaxTUf2XoZr6pQF5xdSdWXZFtQ==}
-    engines: {node: '>=18.17.0'}
-
-  '@clerk/types@4.16.0':
-    resolution: {integrity: sha512-SoE6jFT7UuVtAbA6rSLwAk86VXnJhV2g0+GKQxxa6UFaXIm/s65jLVFpxCDdDZ0RJu2sBrMNfsWQHYyy06nRug==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.17.0':
@@ -424,8 +420,8 @@ packages:
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
 
-  '@trpc/server@11.0.0-rc.489':
-    resolution: {integrity: sha512-dbD59LyEYgtxoAxMuNf15jnXgphLGc7/A53Y/D1v42r8WuSgez1BsS0bq3MYR7AUfiD9LHWEPZqnZxVCndpw0A==}
+  '@trpc/server@11.0.0-rc.490':
+    resolution: {integrity: sha512-JkKLvA0QIErqslsgU6uFvpv9xtxe78C59zqUdZFmUI0V9pIAJlxmODV4I9hTDcX8P+B30rP3z+q2+bPozN2MaQ==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -2032,10 +2028,6 @@ snapshots:
       '@clerk/types': 4.17.0
       tslib: 2.4.1
 
-  '@clerk/types@4.16.0':
-    dependencies:
-      csstype: 3.1.1
-
   '@clerk/types@4.17.0':
     dependencies:
       csstype: 3.1.1
@@ -2267,7 +2259,7 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.7.0
 
-  '@trpc/server@11.0.0-rc.489': {}
+  '@trpc/server@11.0.0-rc.490': {}
 
   '@types/estree@1.0.5': {}
 
