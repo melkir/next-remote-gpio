@@ -27,8 +27,8 @@ importers:
         specifier: 11.0.0-rc.498
         version: 11.0.0-rc.498
       '@types/node':
-        specifier: 20.16.4
-        version: 20.16.4
+        specifier: 20.16.5
+        version: 20.16.5
       '@types/react':
         specifier: 18.3.5
         version: 18.3.5
@@ -438,8 +438,8 @@ packages:
   '@types/node@14.18.63':
     resolution: {integrity: sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==}
 
-  '@types/node@20.16.4':
-    resolution: {integrity: sha512-ioyQ1zK9aGEomJ45zz8S8IdzElyxhvP1RVWnPrXDf6wFaUb+kk1tEcVVJkF7RPGM0VWI7cp5U57oCPIn5iN1qg==}
+  '@types/node@20.16.5':
+    resolution: {integrity: sha512-VwYCweNo3ERajwy0IUlqqcyZ8/A7Zwa9ZP3MnENWcB11AejO+tLy3pu850goUW2FC/IJMdZUfKpX/yxL1gymCA==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -2298,7 +2298,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.17.28':
     dependencies:
-      '@types/node': 20.16.4
+      '@types/node': 20.16.5
       '@types/qs': 6.9.15
       '@types/range-parser': 1.2.7
 
@@ -2308,7 +2308,7 @@ snapshots:
 
   '@types/node@14.18.63': {}
 
-  '@types/node@20.16.4':
+  '@types/node@20.16.5':
     dependencies:
       undici-types: 6.19.6
 
