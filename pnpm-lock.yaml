@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.7(next@14.2.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.5.4)
       '@trpc/server':
-        specifier: 11.0.0-rc.498
-        version: 11.0.0-rc.498
+        specifier: 11.0.0-rc.500
+        version: 11.0.0-rc.500
       '@types/node':
         specifier: 20.16.5
         version: 20.16.5
@@ -420,8 +420,8 @@ packages:
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
 
-  '@trpc/server@11.0.0-rc.498':
-    resolution: {integrity: sha512-LECCOz8JNB67CBasPA6fkLbhJIbUQRP1wq02xUfUMeaSEZFWJL+7fcTgLaWFQSHMMnMsvkLuDuDDkUSCF2SXmg==}
+  '@trpc/server@11.0.0-rc.500':
+    resolution: {integrity: sha512-GaJddOqfe4bMLCADpa9HhD+t3a99C3EDKeBtjjyAIeAyaCET9vaYSuSn5xMpxMixK2a+sSdNjVlx4AMRDi/nQg==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -2292,7 +2292,7 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.7.0
 
-  '@trpc/server@11.0.0-rc.498': {}
+  '@trpc/server@11.0.0-rc.500': {}
 
   '@types/estree@1.0.5': {}
 
