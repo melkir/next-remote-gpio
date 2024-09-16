@@ -13,7 +13,7 @@ importers:
         version: 5.5.2(next@14.2.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.1.29
+        version: 2.1.30
       '@harelpls/use-pusher':
         specifier: ^7.2.1
         version: 7.2.1(react@18.3.1)
@@ -131,12 +131,16 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.1.29':
-    resolution: {integrity: sha512-uwhVLw6jLTQQLnPhwJmncEElbGit/55+IHsLSgaUm6shB01fSK7lfoHFaWpopRsNvGZKZ6bv6v6pgP8bB2ZokQ==}
+  '@clerk/themes@2.1.30':
+    resolution: {integrity: sha512-PNL3h6RQoCFm5VN2M5gXPuud+JZQOuiywgGMDCw0hPUr/sC3xGljGTIX6HvXSpEWimh0l1XTn4jE0bOBTYL+qQ==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.20.1':
     resolution: {integrity: sha512-s2v3wFgLsB+d0Ot5yN+5IjRNKWl63AAeEczTZDZYSWuNkGihvEXYjS2NtnYuhROBRgWEHEsm0JOp0rQkfTMkBw==}
+    engines: {node: '>=18.17.0'}
+
+  '@clerk/types@4.21.0':
+    resolution: {integrity: sha512-yyPNF4agzub9zXOht9Bk8HG+OkHfLKIpsQuTCiZJszehcKNUqKvJZRxUwdRREBYnBdMl632PKCwbckZsChVxVQ==}
     engines: {node: '>=18.17.0'}
 
   '@eslint-community/eslint-utils@4.4.0':
@@ -2059,12 +2063,16 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@clerk/themes@2.1.29':
+  '@clerk/themes@2.1.30':
     dependencies:
-      '@clerk/types': 4.20.1
+      '@clerk/types': 4.21.0
       tslib: 2.4.1
 
   '@clerk/types@4.20.1':
+    dependencies:
+      csstype: 3.1.1
+
+  '@clerk/types@4.21.0':
     dependencies:
       csstype: 3.1.1
 
@@ -2739,7 +2747,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.7.0
+      tslib: 2.4.1
 
   eastasianwidth@0.2.0: {}
 
@@ -3449,7 +3457,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.4.1
 
   lru-cache@10.4.3: {}
 
@@ -3524,7 +3532,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.7.0
+      tslib: 2.4.1
 
   node-releases@2.0.18: {}
 
@@ -3850,7 +3858,7 @@ snapshots:
   snake-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.7.0
+      tslib: 2.4.1
 
   snakecase-keys@5.4.4:
     dependencies:
