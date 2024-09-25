@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { protectedAction } from '../server/trpc'
 
 export const getCommand = protectedAction
+  .meta({ span: 'getCommand' })
   .input(z.literal('led'))
   .mutation(async ({ input: command }) => {
     const response = await gpio(command)
@@ -26,6 +27,7 @@ const ActionSchema = z.union([
 export type ActionType = z.infer<typeof ActionSchema>
 
 export const sendCommand = protectedAction
+  .meta({ span: 'sendCommand' })
   .input(ActionSchema)
   .mutation(async ({ input: { command, led } }) => {
     await gpio('command', {
