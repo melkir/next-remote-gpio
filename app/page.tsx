@@ -1,5 +1,5 @@
 import ActionButton from '@/components/action-button'
-import { LedButton } from '@/components/led-button'
+import LedsPanel from '@/components/leds-panel'
 import Status from '@/components/status'
 import { UserButton } from '@clerk/nextjs'
 import { dark } from '@clerk/themes'
@@ -37,28 +37,7 @@ export default async function Home() {
       >
         <ChevronDown className="h-8 w-8" />
       </ActionButton>
-      <div className="flex items-center justify-between w-80">
-        <LedButton
-          className="w-12 h-12 rounded-full p-0"
-          variant="ghost"
-          action={{ command: 'select', led: 'L1' }}
-        />
-        <LedButton
-          className="w-12 h-12 rounded-full p-0"
-          variant="ghost"
-          action={{ command: 'select', led: 'L2' }}
-        />
-        <LedButton
-          className="w-12 h-12 rounded-full p-0"
-          variant="ghost"
-          action={{ command: 'select', led: 'L3' }}
-        />
-        <LedButton
-          className="w-12 h-12 rounded-full p-0"
-          variant="ghost"
-          action={{ command: 'select', led: 'L4' }}
-        />
-      </div>
+      <LedsPanel />
       <ActionButton
         className="w-24 h-24 rounded-full p-0"
         variant="outline"
