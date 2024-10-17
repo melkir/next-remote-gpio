@@ -13,7 +13,7 @@ importers:
         version: 5.7.3(next@14.2.15(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.1.36
+        version: 2.1.37
       '@harelpls/use-pusher':
         specifier: ^7.2.1
         version: 7.2.1(react@18.3.1)
@@ -131,12 +131,16 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.1.36':
-    resolution: {integrity: sha512-fHqgW0pxllmBEUD7kMU6eLYBgN/AWi/OL6R2zVbpjBGBe0O+xkEG2RZTAevGFC73hWT8c+A/cRgtACrozMhDNA==}
+  '@clerk/themes@2.1.37':
+    resolution: {integrity: sha512-yrVWq3WUH0gBXSIyE+yJuFUlxSt4AmW5YOFjzpQgl8V0gSHLrviZv4WOMXBhbDp+U2ctVr0HUsOHp9GGLUlHVA==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.25.1':
     resolution: {integrity: sha512-ILvR2YXz6BSGXDoozBAd2BGj8ZF/FQrfWQd0FtLz1JXt1vurkgRncAhEcC427OiXNRnq5R2Pn++urfFEa0PqYA==}
+    engines: {node: '>=18.17.0'}
+
+  '@clerk/types@4.26.0':
+    resolution: {integrity: sha512-VGcrQz/XpCiGbpIIzKVwWw4nLorzKnIP1IAemj1xt/80ULcdEZCncwhas6PoYBBsl1W55A1SwP9B/pEs0nmkCw==}
     engines: {node: '>=18.17.0'}
 
   '@eslint-community/eslint-utils@4.4.0':
@@ -1806,8 +1810,8 @@ packages:
   tslib@2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
 
-  tslib@2.7.0:
-    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
+  tslib@2.8.0:
+    resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
 
   tweetnacl@1.0.3:
     resolution: {integrity: sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==}
@@ -1968,12 +1972,16 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@clerk/themes@2.1.36':
+  '@clerk/themes@2.1.37':
     dependencies:
-      '@clerk/types': 4.25.1
+      '@clerk/types': 4.26.0
       tslib: 2.4.1
 
   '@clerk/types@4.25.1':
+    dependencies:
+      csstype: 3.1.1
+
+  '@clerk/types@4.26.0':
     dependencies:
       csstype: 3.1.1
 
@@ -2153,7 +2161,7 @@ snapshots:
   '@swc/helpers@0.5.5':
     dependencies:
       '@swc/counter': 0.1.3
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@trpc/server@11.0.0-rc.580': {}
 
@@ -3871,7 +3879,7 @@ snapshots:
 
   tslib@2.4.1: {}
 
-  tslib@2.7.0: {}
+  tslib@2.8.0: {}
 
   tweetnacl@1.0.3: {}
 
