@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.9(next@14.2.15(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3)
       '@trpc/server':
-        specifier: 11.0.0-rc.590
-        version: 11.0.0-rc.590
+        specifier: 11.0.0-rc.592
+        version: 11.0.0-rc.592
       '@types/node':
         specifier: 20.16.13
         version: 20.16.13
@@ -340,8 +340,8 @@ packages:
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
 
-  '@trpc/server@11.0.0-rc.590':
-    resolution: {integrity: sha512-kjmP1cZVvgL+kqD4D69doVnhV78y/7pofyQB5cAuTU57L+5dkxeddyPSUTWmvjeGr3daVSSld22LgsnlF1IX3A==}
+  '@trpc/server@11.0.0-rc.592':
+    resolution: {integrity: sha512-Pwe6iNL5CPWjBzZem75jq1Jlr4tst0IeqZWNbn/g//kfBaliTxsZy43TmrUOC7PUj5gIH9DHs6RDKka5qBaVTg==}
 
   '@types/express-serve-static-core@4.17.28':
     resolution: {integrity: sha512-P1BJAEAW3E2DJUlkgq4tOL3RyMunoWXqbSCygWo5ZIWTjUgN1YnaXWW4VWl/oc8vs/XoYibEGBKP0uZyF4AHig==}
@@ -2155,7 +2155,7 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.8.0
 
-  '@trpc/server@11.0.0-rc.590': {}
+  '@trpc/server@11.0.0-rc.592': {}
 
   '@types/express-serve-static-core@4.17.28':
     dependencies:
