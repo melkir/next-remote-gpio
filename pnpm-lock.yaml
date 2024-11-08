@@ -92,7 +92,7 @@ importers:
     devDependencies:
       serwist:
         specifier: ^9.0.0
-        version: 9.0.9(typescript@5.6.3)
+        version: 9.0.10(typescript@5.6.3)
 
 packages:
 
@@ -1729,6 +1729,14 @@ packages:
 
   server-only@0.0.1:
     resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
+
+  serwist@9.0.10:
+    resolution: {integrity: sha512-r6DiPmR99ZqfSo1T0SePgyUnQz0QmbVF6XywjWtCk1Qgk4EBAdrYRr9Y4Ul8Xge/jAnpEMyrmdSX9N1vgxWVgA==}
+    peerDependencies:
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   serwist@9.0.9:
     resolution: {integrity: sha512-T3WzdvUjvK1AzNSTSuZkHWWKm0X5UuUaD3jvukHDFaJDmsLZBq0HGlrZ+bpOHoRFwhJSXwuH/V5ksE0I78wwvQ==}
@@ -3786,6 +3794,12 @@ snapshots:
   semver@7.6.3: {}
 
   server-only@0.0.1: {}
+
+  serwist@9.0.10(typescript@5.6.3):
+    dependencies:
+      idb: 8.0.0
+    optionalDependencies:
+      typescript: 5.6.3
 
   serwist@9.0.9(typescript@5.6.3):
     dependencies:
