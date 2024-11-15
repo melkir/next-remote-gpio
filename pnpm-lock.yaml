@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.10(next@15.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3)
       '@trpc/server':
-        specifier: 11.0.0-rc.637
-        version: 11.0.0-rc.637(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 11.0.0-rc.638
+        version: 11.0.0-rc.638(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
         specifier: 22.9.0
         version: 22.9.0
@@ -480,8 +480,8 @@ packages:
   '@swc/helpers@0.5.13':
     resolution: {integrity: sha512-UoKGxQ3r5kYI9dALKJapMmuK+1zWM/H17Z1+iwnNmzcJRnfFuevZs375TA5rW31pu4BS4NoSy1fRsexDXfWn5w==}
 
-  '@trpc/server@11.0.0-rc.637':
-    resolution: {integrity: sha512-zDQbhB8F175rgHfq5h1mvicSOF8JNx0O0LNtGVIYchOeH3BxTw5bGM8WREJktmWZwAtFdFvhQEYiC0ayNw7sqg==}
+  '@trpc/server@11.0.0-rc.638':
+    resolution: {integrity: sha512-ho3sRx66UuncKTtuy7UKbYP8IB4qaPj2gmdDIIdQOftta1oYzEsQuYiBozQAIAmX9TbV5FaqAdBUl2alFBSbdg==}
 
   '@types/aws-lambda@8.10.145':
     resolution: {integrity: sha512-dtByW6WiFk5W5Jfgz1VM+YPA21xMXTuSFoLYIDY0L44jDLLflVPtZkYuu3/YxpGcvjzKFBZLU+GyKjR0HOYtyw==}
@@ -2739,7 +2739,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@trpc/server@11.0.0-rc.637(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@trpc/server@11.0.0-rc.638(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     optionalDependencies:
       '@types/aws-lambda': 8.10.145
       express: 4.21.1
