@@ -15,7 +15,7 @@
     "@radix-ui/react-slot": "^1.0.1",
     "@serwist/next": "^9.0.1",
     "@trpc/server": "11.0.0-rc.643",
-    "@types/node": "22.9.1",
+    "@types/node": "22.9.3",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
     "@vercel/analytics": "^1.0.1",
