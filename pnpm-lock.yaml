@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.10(next@15.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.7.2)
       '@trpc/server':
-        specifier: 11.0.0-rc.645
-        version: 11.0.0-rc.645(typescript@5.7.2)
+        specifier: 11.0.0-rc.648
+        version: 11.0.0-rc.648(typescript@5.7.2)
       '@types/node':
         specifier: 22.10.0
         version: 22.10.0
@@ -468,8 +468,8 @@ packages:
   '@swc/helpers@0.5.13':
     resolution: {integrity: sha512-UoKGxQ3r5kYI9dALKJapMmuK+1zWM/H17Z1+iwnNmzcJRnfFuevZs375TA5rW31pu4BS4NoSy1fRsexDXfWn5w==}
 
-  '@trpc/server@11.0.0-rc.645':
-    resolution: {integrity: sha512-DbAp3kzYceem6getORJh55a6ZRt6gIy69xJV3cxYyZ9Xx1MV3PwL27qXGNrprPO0c+kPnnIIu/iGB0d90LSZOA==}
+  '@trpc/server@11.0.0-rc.648':
+    resolution: {integrity: sha512-nKW7FNM+QZrY/CVGlX3hFNIdUvbw6pwSJ+HzEF8GIeSJDKLHK7Ke1QJGI2mRW6oF9dCKMBXfuLaYY2dXfjfn7Q==}
     peerDependencies:
       typescript: '>=5.6.2'
 
@@ -2370,7 +2370,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@trpc/server@11.0.0-rc.645(typescript@5.7.2)':
+  '@trpc/server@11.0.0-rc.648(typescript@5.7.2)':
     dependencies:
       typescript: 5.7.2
 
