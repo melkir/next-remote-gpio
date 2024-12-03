@@ -57,8 +57,8 @@ importers:
         specifier: 15.0.3
         version: 15.0.3(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       lucide-react:
-        specifier: ^0.462.0
-        version: 0.462.0(react@18.3.1)
+        specifier: ^0.463.0
+        version: 0.463.0(react@18.3.1)
       next:
         specifier: 15.0.3
         version: 15.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -133,10 +133,6 @@ packages:
 
   '@clerk/themes@2.1.49':
     resolution: {integrity: sha512-fj6OdXEV11+bdhAFBggVDXdjEedJ4t3ZsHWrofbzjFVwoAAMJLGp44DVMjnKwntJQeyWzg2T2tVRXHBjvTG1zg==}
-    engines: {node: '>=18.17.0'}
-
-  '@clerk/types@4.35.0':
-    resolution: {integrity: sha512-sBSYCCIXcwI+JHQRqBtskw10+rQ1NcA9w1G6ndnS48F5C+if6xI9OpYaaDjhhvzLjBeZFydKAOhe35mgC7bmoA==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.35.1':
@@ -1416,8 +1412,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lucide-react@0.462.0:
-    resolution: {integrity: sha512-NTL7EbAao9IFtuSivSZgrAh4fZd09Lr+6MTkqIxuHaH2nnYiYIzXPo06cOxHg9wKLdj6LL8TByG4qpePqwgx/g==}
+  lucide-react@0.463.0:
+    resolution: {integrity: sha512-Ltc6Fpo/5AVnHEsGwU9IbIpoCjZuK/S0Y78k4sl6FzvGlKJyyg44DdaQry7YaLm2sszfZrc9HZ5/4oXqUkzJQQ==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
 
@@ -2096,10 +2092,6 @@ snapshots:
     dependencies:
       '@clerk/types': 4.35.1
       tslib: 2.4.1
-
-  '@clerk/types@4.35.0':
-    dependencies:
-      csstype: 3.1.1
 
   '@clerk/types@4.35.1':
     dependencies:
@@ -3481,7 +3473,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lucide-react@0.462.0(react@18.3.1):
+  lucide-react@0.463.0(react@18.3.1):
     dependencies:
       react: 18.3.1
 
