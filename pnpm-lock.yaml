@@ -13,7 +13,7 @@ importers:
         version: 6.8.2(next@15.0.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.1.53
+        version: 2.1.54
       '@harelpls/use-pusher':
         specifier: ^7.2.1
         version: 7.2.1(react@19.0.0)
@@ -131,8 +131,8 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.1.53':
-    resolution: {integrity: sha512-e+y2l6XXqC3tI3KjxrdVBU2bQe4gUyXI/F/TvOgfQBqF159oesKiEK34MrnfYusfWE1EgNhnU/2gcE8HTkq+nw==}
+  '@clerk/themes@2.1.54':
+    resolution: {integrity: sha512-3/3sz/2FZkkg984UpCYSIAohgcTGN2Nk/bJugZY8EBadDud7DzhmQYqSNqbFSug8qwIOKrjoPE0OkG2t23d6Og==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.39.0':
@@ -2079,9 +2079,9 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  '@clerk/themes@2.1.53':
+  '@clerk/themes@2.1.54':
     dependencies:
-      '@clerk/types': 4.39.0
+      '@clerk/types': 4.39.1
       tslib: 2.4.1
 
   '@clerk/types@4.39.0':
