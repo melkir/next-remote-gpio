@@ -17,7 +17,7 @@
     "@trpc/server": "11.0.0-rc.660",
     "@types/node": "22.10.1",
     "@types/react": "19.0.1",
-    "@types/react-dom": "19.0.1",
+    "@types/react-dom": "19.0.2",
     "@vercel/analytics": "^1.0.1",
     "autoprefixer": "10.4.20",
     "class-variance-authority": "^0.7.0",
