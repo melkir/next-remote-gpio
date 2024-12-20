@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@clerk/nextjs':
         specifier: ^6.0.0
-        version: 6.9.5(next@15.1.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 6.9.6(next@15.1.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/themes':
         specifier: ^2.0.0
         version: 2.2.3
@@ -104,15 +104,15 @@ packages:
     resolution: {integrity: sha512-PHJzBJrTxBAvHwscXwUwpippT7nHhphgycVcFb3655Dq6q0nRdKfo5GlkDHscEKxLOdmppB/168nXsVwSWf86w==}
     engines: {node: '>=18.17.0'}
 
-  '@clerk/clerk-react@5.20.4':
-    resolution: {integrity: sha512-32mOA35txmTUOIxbyFiJozQxkINqjJQMb2eO/4OKYA8ZYn3KbjXdbQyOR6LCJEE5k9rOUbYrCtspDb/HKgB7pA==}
+  '@clerk/clerk-react@5.21.0':
+    resolution: {integrity: sha512-WGIYKeXA/cpvWj2NiMsWYJfRq4Npy6bM9ZrcTENXVox9jpk6iGggoX9zFJG9NBx5LDHBV2kgvpRdhnF/cnrJ+w==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0 || ^19.0.0-0
       react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-0
 
-  '@clerk/nextjs@6.9.5':
-    resolution: {integrity: sha512-0d4pdjCGU6TyrLA5eGtlcFt9vVbwtRuXq3tWpYgvii3kwG8ulUsCLl52c48nmnHPl23O+/rqCiufzRuWzBTxwQ==}
+  '@clerk/nextjs@6.9.6':
+    resolution: {integrity: sha512-wmbQd2UYOnvGtidgEAqD6f2JZjvKMlmZqnT2HbR3GKwiGme3c1wLrkPye5tknaFLJHsA+Zfp7MJtL7mu07yCzw==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       next: ^13.5.4 || ^14.0.3 || ^15.0.0
@@ -2043,7 +2043,7 @@ snapshots:
       - react
       - react-dom
 
-  '@clerk/clerk-react@5.20.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@clerk/clerk-react@5.21.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@clerk/shared': 2.20.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/types': 4.40.0
@@ -2051,10 +2051,10 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
       tslib: 2.4.1
 
-  '@clerk/nextjs@6.9.5(next@15.1.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@clerk/nextjs@6.9.6(next@15.1.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@clerk/backend': 1.21.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@clerk/clerk-react': 5.20.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@clerk/clerk-react': 5.21.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/shared': 2.20.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/types': 4.40.0
       crypto-js: 4.2.0
@@ -2781,7 +2781,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.8.1
+      tslib: 2.4.1
 
   eastasianwidth@0.2.0: {}
 
@@ -3448,7 +3448,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.4.1
 
   lru-cache@10.4.3: {}
 
@@ -3523,7 +3523,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.8.1
+      tslib: 2.4.1
 
   node-releases@2.0.18: {}
 
@@ -3839,7 +3839,7 @@ snapshots:
   snake-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.8.1
+      tslib: 2.4.1
 
   snakecase-keys@5.4.4:
     dependencies:
