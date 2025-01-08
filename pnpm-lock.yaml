@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.1
         version: 9.0.11(next@15.1.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.2)
       '@trpc/server':
-        specifier: 11.0.0-rc.682
-        version: 11.0.0-rc.682(typescript@5.7.2)
+        specifier: 11.0.0-rc.688
+        version: 11.0.0-rc.688(typescript@5.7.2)
       '@types/node':
         specifier: 22.10.5
         version: 22.10.5
@@ -133,10 +133,6 @@ packages:
 
   '@clerk/themes@2.2.4':
     resolution: {integrity: sha512-nk7tzHOj0DocCSb/5kadDc+xsUOYUxAnfEG6ya5HqR0V7psaVlexDRzk9803+dFlisWdwmd69+mTrPGKLsMdHw==}
-    engines: {node: '>=18.17.0'}
-
-  '@clerk/types@4.40.0':
-    resolution: {integrity: sha512-9QdllXYujsjYLbvPg9Kq1rWOemX5FB0r6Ijy8HOxwjKN+TPlxUnGcs+t7IwU+M5gdmZ2KV6aA6d1a2q2FlSoiA==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.40.1':
@@ -472,8 +468,8 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
-  '@trpc/server@11.0.0-rc.682':
-    resolution: {integrity: sha512-y8FhLW/UJ8SOyHByvSQW7WvCnbvYioOYhviWD+sRvqkB9f0O8/sEBPJt1mBadWaO/0tygOghkeNC9o1wAsJ8cg==}
+  '@trpc/server@11.0.0-rc.688':
+    resolution: {integrity: sha512-nv1uJFMWFnD5Y+pt2rECXTYZ2J8WZMKesNU3DbPxZYUcmLXo18sKRYTlJGjVr5amJ58L3Z5F4JNrFO3GV0DsEQ==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -2085,10 +2081,6 @@ snapshots:
       '@clerk/types': 4.40.1
       tslib: 2.4.1
 
-  '@clerk/types@4.40.0':
-    dependencies:
-      csstype: 3.1.1
-
   '@clerk/types@4.40.1':
     dependencies:
       csstype: 3.1.1
@@ -2366,7 +2358,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@trpc/server@11.0.0-rc.682(typescript@5.7.2)':
+  '@trpc/server@11.0.0-rc.688(typescript@5.7.2)':
     dependencies:
       typescript: 5.7.2
 
