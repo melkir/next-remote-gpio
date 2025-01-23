@@ -57,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cx(inter.className, 'dark')}>
-        <ClerkProvider>
+        <ClerkProvider afterSignOutUrl="/">
           <PusherProvider {...config}>
             <StatusProvider>{children}</StatusProvider>
           </PusherProvider>
