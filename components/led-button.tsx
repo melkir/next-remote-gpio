@@ -3,16 +3,19 @@
 import { Circle } from 'lucide-react'
 import ActionButton, { ActionButtonProps } from './action-button'
 
-export function LedButton(props: ActionButtonProps & { isActive?: boolean }) {
+export function LedButton({
+  isActive,
+  ...props
+}: ActionButtonProps & { isActive?: boolean }) {
   return (
     <ActionButton
       {...props}
-      className="w-12 h-12 rounded-full p-0"
+      className="p-0 w-12 h-12 rounded-full"
       variant="ghost"
     >
       <Circle
-        fill={props.isActive ? 'currentColor' : undefined}
-        className="h-6 w-6"
+        fill={isActive ? 'currentColor' : undefined}
+        className="w-6 h-6"
       />
     </ActionButton>
   )

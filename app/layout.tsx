@@ -2,7 +2,6 @@ import { PusherProvider } from '@/components/pusher-provider'
 import { StatusProvider } from '@/components/status-context'
 import { ClerkProvider } from '@clerk/nextjs'
 import { Analytics } from '@vercel/analytics/react'
-import { cx } from 'class-variance-authority'
 
 import { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
@@ -55,8 +54,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={cx(inter.className, 'dark')}>
+    <html lang="en" className="dark">
+      <body className={inter.className}>
         <ClerkProvider afterSignOutUrl="/">
           <PusherProvider {...config}>
             <StatusProvider>{children}</StatusProvider>
