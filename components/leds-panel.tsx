@@ -22,11 +22,11 @@ export default function LedsPanel() {
   const LEDS = ['L1', 'L2', 'L3', 'L4'] as const
 
   return (
-    <div className="flex items-center justify-between w-80">
+    <div className="flex justify-between items-center w-80">
       {LEDS.map((led) => (
         <LedButton
           key={led}
-          className="w-12 h-12 rounded-full p-0"
+          className="p-0 w-12 h-12 rounded-full"
           variant="ghost"
           isActive={activeLed === led || activeLed === 'ALL'}
           action={{ command: 'select', led }}
