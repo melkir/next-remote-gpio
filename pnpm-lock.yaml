@@ -27,8 +27,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       '@trpc/server':
-        specifier: 11.0.0-rc.716
-        version: 11.0.0-rc.716(typescript@5.7.3)
+        specifier: 11.0.0-rc.718
+        version: 11.0.0-rc.718(typescript@5.7.3)
       '@types/node':
         specifier: 22.10.9
         version: 22.10.9
@@ -133,10 +133,6 @@ packages:
 
   '@clerk/themes@2.2.11':
     resolution: {integrity: sha512-CU4jmVnJT3tP638Hn+EVtwgBAKbczQqA1OKl+SN1X8pdQ0eml3qhdI9nxKdFyFiuVo50NHABly4poRldJtOf8Q==}
-    engines: {node: '>=18.17.0'}
-
-  '@clerk/types@4.42.0':
-    resolution: {integrity: sha512-SPBRHdP+ZggeudncbSj8KLOZ5PdVmtgZhL+tXremVJrETi9WHpf1UOYgnIHl+clp6GZC2IQM4tq57RSrHf0Oew==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.43.0':
@@ -530,8 +526,8 @@ packages:
   '@tailwindcss/postcss@4.0.0':
     resolution: {integrity: sha512-lI2bPk4TvwavHdehjr5WiC6HnZ59hacM6ySEo4RM/H7tsjWd8JpqiNW9ThH7rO/yKtrn4mGBoXshpvn8clXjPg==}
 
-  '@trpc/server@11.0.0-rc.716':
-    resolution: {integrity: sha512-2dvUMxoSqTAqdNNUGQHg+8B7hYFkeC8uKJTwKNz27w0MiYM2+fNvo8Qt2m4LijFPk9SKR9GFP+UAqfOEY8DCpw==}
+  '@trpc/server@11.0.0-rc.718':
+    resolution: {integrity: sha512-u9xKci9yEVBjia3X6XhYG9Me3klf0HmyQUAPCzxPYUg8WNvwXEGfTJrIC1bBfst2pjvv3xmXsi16e3tGU16c6g==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -2037,10 +2033,6 @@ snapshots:
       '@clerk/types': 4.43.0
       tslib: 2.4.1
 
-  '@clerk/types@4.42.0':
-    dependencies:
-      csstype: 3.1.1
-
   '@clerk/types@4.43.0':
     dependencies:
       csstype: 3.1.1
@@ -2366,7 +2358,7 @@ snapshots:
       postcss: 8.5.1
       tailwindcss: 4.0.0
 
-  '@trpc/server@11.0.0-rc.716(typescript@5.7.3)':
+  '@trpc/server@11.0.0-rc.718(typescript@5.7.3)':
     dependencies:
       typescript: 5.7.3
 
