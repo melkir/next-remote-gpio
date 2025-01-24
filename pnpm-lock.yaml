@@ -13,7 +13,7 @@ importers:
         version: 6.10.1(next@15.1.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/themes':
         specifier: ^2.0.0
-        version: 2.2.11
+        version: 2.2.12
       '@harelpls/use-pusher':
         specifier: ^7.2.1
         version: 7.2.1(react@19.0.0)
@@ -131,12 +131,16 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.2.11':
-    resolution: {integrity: sha512-CU4jmVnJT3tP638Hn+EVtwgBAKbczQqA1OKl+SN1X8pdQ0eml3qhdI9nxKdFyFiuVo50NHABly4poRldJtOf8Q==}
+  '@clerk/themes@2.2.12':
+    resolution: {integrity: sha512-2KLihkWClEUc5ZkIzNU9cTcpWtzxAm2GZRCSI0KUKZA/0V6glhmnxSSk+AQXzO9GpbyQm+UDIOQQSvQ10hnnFQ==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.43.0':
     resolution: {integrity: sha512-1xjZykuGnOAI1mlj+qI9g8BiadakXbi9pSWLN2xDD1WpXmZjwGcP7ZR4ShUE/ps/cV0vH16lUF1z2rn84rMKrA==}
+    engines: {node: '>=18.17.0'}
+
+  '@clerk/types@4.44.0':
+    resolution: {integrity: sha512-L9UNS21sQ7OAgXKUWSMaZWayI/qmVM4DGvGCAlL0tpzbzdFU1nkxRaMOT3FkmWKSahIq4BI+vJHfMC1ki9uuGg==}
     engines: {node: '>=18.17.0'}
 
   '@emnapi/runtime@1.3.1':
@@ -2028,12 +2032,16 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  '@clerk/themes@2.2.11':
+  '@clerk/themes@2.2.12':
     dependencies:
-      '@clerk/types': 4.43.0
+      '@clerk/types': 4.44.0
       tslib: 2.4.1
 
   '@clerk/types@4.43.0':
+    dependencies:
+      csstype: 3.1.1
+
+  '@clerk/types@4.44.0':
     dependencies:
       csstype: 3.1.1
 
