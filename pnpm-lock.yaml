@@ -67,7 +67,7 @@ importers:
         version: 8.5.1
       pusher-js:
         specifier: ^8.0.2
-        version: 8.3.0
+        version: 8.4.0
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -133,10 +133,6 @@ packages:
 
   '@clerk/themes@2.2.16':
     resolution: {integrity: sha512-6CZwBl5VSTkAOo3OSyDZhefMDM8KXHoMcMYfbu+PdAvtl4C48bCkFNSWLsxVsR4H96TdpLL/k0zemao6YJhAjA==}
-    engines: {node: '>=18.17.0'}
-
-  '@clerk/types@4.44.3':
-    resolution: {integrity: sha512-WyBe4pgM9W1Rt1p8KTmTDVDALADnnQoUyOk76XI0fDr63w7LMdSAhhwYiTqR9aMWaHY1/mtbOWqZ5wILCEVvDQ==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.45.0':
@@ -1638,8 +1634,8 @@ packages:
   pusher-js@7.6.0:
     resolution: {integrity: sha512-5CJ7YN5ZdC24E0ETraCU5VYFv0IY5ziXhrS0gS5+9Qrro1E4M1lcZhtr9H1H+6jNSLj1LKKAgcLeE1EH9GxMlw==}
 
-  pusher-js@8.3.0:
-    resolution: {integrity: sha512-6GohP06WlVeomAQQe9qWh1IDzd3+InluWt+ZUOcecVK1SEQkg6a8uYVsvxSJm7cbccfmHhE0jDkmhKIhue8vmA==}
+  pusher-js@8.4.0:
+    resolution: {integrity: sha512-wp3HqIIUc1GRyu1XrP6m2dgyE9MoCsXVsWNlohj0rjSkLf+a0jLvEyVubdg58oMk7bhjBWnFClgp8jfAa6Ak4Q==}
 
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
@@ -2032,10 +2028,6 @@ snapshots:
     dependencies:
       '@clerk/types': 4.45.0
       tslib: 2.4.1
-
-  '@clerk/types@4.44.3':
-    dependencies:
-      csstype: 3.1.1
 
   '@clerk/types@4.45.0':
     dependencies:
@@ -3613,7 +3605,7 @@ snapshots:
       '@types/node': 14.18.63
       tweetnacl: 1.0.3
 
-  pusher-js@8.3.0:
+  pusher-js@8.4.0:
     dependencies:
       tweetnacl: 1.0.3
 
