@@ -92,7 +92,7 @@ importers:
     devDependencies:
       serwist:
         specifier: ^9.0.0
-        version: 9.0.11(typescript@5.7.3)
+        version: 9.0.12(typescript@5.7.3)
 
 packages:
 
@@ -1185,6 +1185,9 @@ packages:
   idb@8.0.0:
     resolution: {integrity: sha512-l//qvlAKGmQO31Qn7xdzagVPPaHTxXx199MhrAFuVBTPqydcPYBWjkrbv4Y0ktB+GmWOiwHl237UUOrLmQxLvw==}
 
+  idb@8.0.2:
+    resolution: {integrity: sha512-CX70rYhx7GDDQzwwQMDwF6kDRQi5vVs6khHUumDrMecBylKkwvZ8HWvKV08AGb7VbpoGCWUQ4aHzNDgoUiOIUg==}
+
   ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
     engines: {node: '>= 4'}
@@ -1707,6 +1710,14 @@ packages:
 
   serwist@9.0.11:
     resolution: {integrity: sha512-oUuyOuIFZoj+ZYdwWnPYVsndOw5CoGsTy106mHJ2wxjnz01TrDhg2l26yrsoJek1qT/Doi0pzknYLLXTIFs5og==}
+    peerDependencies:
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  serwist@9.0.12:
+    resolution: {integrity: sha512-u5UIJfG/RwkHtffLzlHAaBjXTHQFkKIGvdLQu/zpCWG3cN/AdMbvmtT7Kx2360wQqfE6infDORMdNTtNXpIpjQ==}
     peerDependencies:
       typescript: '>=5.0.0'
     peerDependenciesMeta:
@@ -3186,6 +3197,8 @@ snapshots:
 
   idb@8.0.0: {}
 
+  idb@8.0.2: {}
+
   ignore@5.3.1: {}
 
   import-fresh@3.3.0:
@@ -3680,6 +3693,12 @@ snapshots:
   serwist@9.0.11(typescript@5.7.3):
     dependencies:
       idb: 8.0.0
+    optionalDependencies:
+      typescript: 5.7.3
+
+  serwist@9.0.12(typescript@5.7.3):
+    dependencies:
+      idb: 8.0.2
     optionalDependencies:
       typescript: 5.7.3
 
