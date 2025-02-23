@@ -1,7 +1,7 @@
 'use client'
 
 import { Circle } from 'lucide-react'
-import ActionButton, { ActionButtonProps } from './action-button'
+import ActionButton, { type ActionButtonProps } from './action-button'
 
 export function LedButton({
   isActive,

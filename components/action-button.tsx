@@ -1,11 +1,11 @@
 'use client'
 
-import { ActionType, sendCommand } from '@/app/_actions'
+import { type ActionType, sendCommand } from '@/app/_actions'
 import { useStatusDispatch } from '@/components/status-context'
 import { cn } from '@/lib/utils'
 import { useChannel, useClientTrigger, useEvent } from '@harelpls/use-pusher'
 import { useState } from 'react'
-import { Button, ButtonProps } from './ui/button'
+import { Button, type ButtonProps } from './ui/button'
 
 // const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 

@@ -1,6 +1,6 @@
 'use client'
 
-import { Dispatch, createContext, useContext, useReducer } from 'react'
+import { type Dispatch, createContext, useContext, useReducer } from 'react'
 import styles from './status.module.css'
 
 type Action =
@@ -38,12 +38,11 @@ function statusReducer(state: State, action: Action): State {
           classname: 'bg-accent',
           count: 0,
         }
-      } else {
-        return {
-          isLoading: true,
-          classname: styles.loading,
-          count: state.count - 1,
-        }
+      }
+      return {
+        isLoading: true,
+        classname: styles.loading,
+        count: state.count - 1,
       }
     }
   }
@@ -52,7 +51,7 @@ function statusReducer(state: State, action: Action): State {
 export const StatusContext = createContext(null as unknown as State)
 
 export const StatusDispatchContext = createContext(
-  null as unknown as Dispatch<Action>
+  null as unknown as Dispatch<Action>,
 )
 
 export function StatusProvider({ children }: { children: React.ReactNode }) {

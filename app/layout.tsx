@@ -3,7 +3,7 @@ import { StatusProvider } from '@/components/status-context'
 import { ClerkProvider } from '@clerk/nextjs'
 import { Analytics } from '@vercel/analytics/react'
 
-import { Metadata, Viewport } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -43,8 +43,8 @@ export const viewport: Viewport = {
 }
 
 const config = {
-  clientKey: process.env.PUSHER_KEY!,
-  cluster: process.env.PUSHER_CLUSTER!,
+  clientKey: process.env.PUSHER_KEY,
+  cluster: process.env.PUSHER_CLUSTER,
   authEndpoint: '/api/pusher/auth',
 }
 
