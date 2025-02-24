@@ -3,7 +3,7 @@
 import { useStatus, useStatusDispatch } from '@/components/status-context'
 import { cn } from '@/lib/utils'
 import { useChannel, useEvent } from '@harelpls/use-pusher'
-import { ActionEvent } from './action-button'
+import type { ActionEvent } from './action-button'
 
 export default function Status() {
   const status = useStatus()

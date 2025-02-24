@@ -1,5 +1,5 @@
 import { currentUser } from '@clerk/nextjs/server'
-import { initTRPC, TRPCError } from '@trpc/server'
+import { TRPCError, initTRPC } from '@trpc/server'
 import { experimental_nextAppDirCaller } from '@trpc/server/adapters/next-app-dir'
 
 interface Meta {
@@ -12,7 +12,7 @@ const serverActionProcedure = t.procedure
   .experimental_caller(
     experimental_nextAppDirCaller({
       pathExtractor: ({ meta }) => (meta as Meta).span,
-    })
+    }),
   )
   .use(async ({ next }) => {
     // Inject user into context

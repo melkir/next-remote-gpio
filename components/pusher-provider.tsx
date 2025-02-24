@@ -2,9 +2,8 @@
 
 import {
   PusherProvider as NextPusherProvider,
-  PusherProviderProps,
+  type PusherProviderProps,
 } from '@harelpls/use-pusher'
-import * as React from 'react'
 
 export function PusherProvider({
   children,
