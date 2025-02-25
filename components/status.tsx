@@ -1,13 +1,17 @@
 'use client'
 
-import { useStatus, useStatusDispatch } from '@/components/status-context'
+import {
+  StatusContext,
+  StatusDispatchContext,
+} from '@/components/status-context'
 import { cn } from '@/lib/utils'
 import { useChannel, useEvent } from '@harelpls/use-pusher'
+import { use } from 'react'
 import type { ActionEvent } from './action-button'
 
 export default function Status() {
-  const status = useStatus()
-  const dispatch = useStatusDispatch()
+  const status = use(StatusContext)
+  const dispatch = use(StatusDispatchContext)
 
   const client = useChannel('private-gpio')
 

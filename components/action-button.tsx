@@ -1,10 +1,10 @@
 'use client'
 
 import { type ActionType, sendCommand } from '@/app/_actions'
-import { useStatusDispatch } from '@/components/status-context'
 import { cn } from '@/lib/utils'
 import { useChannel, useClientTrigger, useEvent } from '@harelpls/use-pusher'
-import { useState } from 'react'
+import { use, useState } from 'react'
+import { StatusDispatchContext } from './status-context'
 import { Button, type ButtonProps } from './ui/button'
 
 // const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
@@ -21,7 +21,7 @@ export default function ActionButton(props: ActionButtonProps) {
   const [isHover, setIsHover] = useState(false)
   const channel = useChannel('private-gpio')
   const trigger = useClientTrigger(channel)
-  const dispatch = useStatusDispatch()
+  const dispatch = use(StatusDispatchContext)
 
   const eventName = 'client-action'
 

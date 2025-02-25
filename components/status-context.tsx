@@ -71,11 +71,3 @@ export function StatusProvider({ children }: { children: ReactNode }) {
     </StatusContext.Provider>
   )
 }
-
-export function useStatus() {
-  return useContext(StatusContext)
-}
-
-export function useStatusDispatch() {
-  return useContext(StatusDispatchContext)
-}
