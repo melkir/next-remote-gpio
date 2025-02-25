@@ -5,45 +5,45 @@ import { UserButton } from '@clerk/nextjs'
 import { dark } from '@clerk/themes'
 import { ChevronDown, ChevronUp, CircleDot, Pause } from 'lucide-react'
 
-export default async function Home() {
+export default function Home() {
   return (
-    <main className="flex flex-col justify-evenly items-center px-6 w-screen">
+    <main className="flex w-screen flex-col items-center justify-evenly px-6">
       <Status />
-      <div className="fixed right-5 top-10">
+      <div className="fixed top-10 right-5">
         <UserButton
           appearance={{ baseTheme: dark }}
           userProfileProps={{ appearance: { baseTheme: dark } }}
         />
       </div>
       <ActionButton
-        className="p-0 w-24 h-24 rounded-full"
+        className="h-24 w-24 rounded-full p-0"
         variant="outline"
         action={{ command: 'up' }}
       >
-        <ChevronUp className="w-8 h-8" />
+        <ChevronUp className="h-8 w-8" />
       </ActionButton>
       <ActionButton
-        className="p-0 w-28 h-28 rounded-full"
+        className="h-28 w-28 rounded-full p-0"
         variant="outline"
         action={{ command: 'stop' }}
       >
-        <Pause className="w-10 h-10" />
+        <Pause className="h-10 w-10" />
       </ActionButton>
       <ActionButton
-        className="p-0 w-24 h-24 rounded-full"
+        className="h-24 w-24 rounded-full p-0"
         variant="outline"
         action={{ command: 'down' }}
       >
-        <ChevronDown className="w-8 h-8" />
+        <ChevronDown className="h-8 w-8" />
       </ActionButton>
       <LedsPanel />
       <ActionButton
-        className="p-0 w-24 h-24 rounded-full"
+        className="h-24 w-24 rounded-full p-0"
         variant="outline"
         action={{ command: 'select' }}
         contextAction={{ command: 'select', led: 'ALL' }}
       >
-        <CircleDot className="w-8 h-8" />
+        <CircleDot className="h-8 w-8" />
       </ActionButton>
     </main>
   )

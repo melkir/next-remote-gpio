@@ -26,7 +26,9 @@ export default function ActionButton(props: ActionButtonProps) {
   const eventName = 'client-action'
 
   useEvent<ActionEvent>(channel, eventName, (event) => {
-    if (!event) return
+    if (!event) {
+      return
+    }
     if (event.command === action.command && event.led === action.led) {
       setIsHover(event.type === 'start')
     }

@@ -12,7 +12,7 @@ const serverActionProcedure = t.procedure
   .experimental_caller(
     experimental_nextAppDirCaller({
       pathExtractor: ({ meta }) => (meta as Meta).span,
-    }),
+    })
   )
   .use(async ({ next }) => {
     // Inject user into context

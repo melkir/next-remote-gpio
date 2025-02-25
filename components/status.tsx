@@ -20,13 +20,15 @@ export default function Status() {
   })
 
   useEvent<ActionEvent>(client, 'client-action', (event) => {
-    if (!event) return
+    if (!event) {
+      return
+    }
     dispatch(event.type === 'start' ? { type: 'request' } : { type: 'idle' })
   })
 
   return (
     <div
-      className={cn('absolute top-0 w-72 h-4 rounded-b-full bg-accent', {
+      className={cn('absolute top-0 h-4 w-72 rounded-b-full bg-accent', {
         [status.classname]: status.count > 0 || status.isLoading === false,
       })}
     />

@@ -38,11 +38,11 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "serwist": "^9.0.12"
+    "@biomejs/biome": "1.9.4",
+    "serwist": "^9.0.12",
+    "ultracite": "4.1.20"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "@clerk/shared"
-    ]
+    "onlyBuiltDependencies": ["@clerk/shared"]
   }
 }

@@ -10,12 +10,12 @@ export function LedButton({
   return (
     <ActionButton
       {...props}
-      className="p-0 w-12 h-12 rounded-full"
+      className="h-12 w-12 rounded-full p-0"
       variant="ghost"
     >
       <Circle
         fill={isActive ? 'currentColor' : undefined}
-        className="w-6 h-6"
+        className="h-6 w-6"
       />
     </ActionButton>
   )
