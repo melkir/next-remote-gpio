@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@clerk/nextjs':
         specifier: ^6.12.0
-        version: 6.12.2(next@15.2.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 6.12.3(next@15.2.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/themes':
         specifier: ^2.2.19
         version: 2.2.20
@@ -159,8 +159,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@clerk/backend@1.24.3':
-    resolution: {integrity: sha512-kKdIAm4E/gazigdg/9uVrbwRl1Wnv+YYlZwTbb2U8y/XKMSiItjo0IaXAv3pF5j7gRxAVwcsnncQheqBOTNwNg==}
+  '@clerk/backend@1.25.0':
+    resolution: {integrity: sha512-ga+SZsuqvHN+9zu+m838QSOd9NVMf/jhSzCgyC1zt4PUnbL/I5Q3dUxz+nR5ELo4Icc+Z9Ad0DdAE9r3OtbIbw==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/clerk-react@5.24.1':
@@ -170,8 +170,8 @@ packages:
       react: ^18.0.0 || ^19.0.0 || ^19.0.0-0
       react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-0
 
-  '@clerk/nextjs@6.12.2':
-    resolution: {integrity: sha512-/RACzRr5YkDxhrb/LeRHUkezWR+OaIe/8qWOycS0S6Itw5MKhb+gjuseHNCHwiSK/fpCv6j00ab5BCA9g1rGXw==}
+  '@clerk/nextjs@6.12.3':
+    resolution: {integrity: sha512-ZNMruzrDZP9KQLHM9VPNEKv/V+nqo0808iQz+PM4ML3I8x6AMNq5tMKHD7i8UtDK5KKTMAGUQz4ziRMmbjXz4w==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       next: ^13.5.4 || ^14.0.3 || ^15.0.0
@@ -1826,8 +1826,8 @@ packages:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
 
-  std-env@3.8.0:
-    resolution: {integrity: sha512-Bc3YwwCB+OzldMxOXJIIvC6cPRWr/LxOp48CdQTOkPyk/t4JWWJbrilwBd7RJzKV8QW7tJkcgAmeuLLJugl5/w==}
+  std-env@3.8.1:
+    resolution: {integrity: sha512-vj5lIj3Mwf9D79hBkltk5qmkFI+biIKWS2IBxEyEU3AX1tUf7AoL8nSazCOiiqQsGKIq01SClsKEzweu34uwvA==}
 
   streamsearch@1.1.0:
     resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
@@ -1949,8 +1949,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  type-fest@4.36.0:
-    resolution: {integrity: sha512-3T/PUdKTCnkUmhQU6FFJEHsLwadsRegktX3TNHk+2JJB9HlA8gp1/VXblXVDI93kSnXF2rdPx0GMbHtJIV2LPg==}
+  type-fest@4.37.0:
+    resolution: {integrity: sha512-S/5/0kFftkq27FPNye0XM1e2NsnoD/3FS+pBmbjmmtLT6I+i344KoOf7pvXreaFsDamWeaJX55nczA1m5PsBDg==}
     engines: {node: '>=16'}
 
   typed-array-buffer@1.0.2:
@@ -2076,7 +2076,7 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.4':
     optional: true
 
-  '@clerk/backend@1.24.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@clerk/backend@1.25.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@clerk/shared': 3.0.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/types': 4.47.0
@@ -2095,9 +2095,9 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
       tslib: 2.4.1
 
-  '@clerk/nextjs@6.12.2(next@15.2.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@clerk/nextjs@6.12.3(next@15.2.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@clerk/backend': 1.24.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@clerk/backend': 1.25.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/clerk-react': 5.24.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/shared': 3.0.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/types': 4.47.0
@@ -2114,7 +2114,7 @@ snapshots:
       dequal: 2.0.3
       glob-to-regexp: 0.4.1
       js-cookie: 3.0.5
-      std-env: 3.8.0
+      std-env: 3.8.1
       swr: 2.3.2(react@19.0.0)
     optionalDependencies:
       react: 19.0.0
@@ -3858,7 +3858,7 @@ snapshots:
     dependencies:
       map-obj: 4.3.0
       snake-case: 3.0.4
-      type-fest: 4.36.0
+      type-fest: 4.37.0
 
   source-map-js@1.2.1: {}
 
@@ -3866,7 +3866,7 @@ snapshots:
     dependencies:
       whatwg-url: 7.1.0
 
-  std-env@3.8.0: {}
+  std-env@3.8.1: {}
 
   streamsearch@1.1.0: {}
 
@@ -3995,7 +3995,7 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  type-fest@4.36.0: {}
+  type-fest@4.37.0: {}
 
   typed-array-buffer@1.0.2:
     dependencies:
