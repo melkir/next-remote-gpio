@@ -27,8 +27,8 @@ importers:
         specifier: ^4.0.8
         version: 4.0.14
       '@trpc/server':
-        specifier: 11.0.0-rc.839
-        version: 11.0.0-rc.839(typescript@5.8.2)
+        specifier: 11.0.0-rc.840
+        version: 11.0.0-rc.840(typescript@5.8.2)
       '@types/node':
         specifier: 22.13.10
         version: 22.13.10
@@ -192,10 +192,6 @@ packages:
 
   '@clerk/themes@2.2.22':
     resolution: {integrity: sha512-WOVtr78YzQua2VhFpuTdrNFPBRt/ZiY/0qjUePSUYC/WZsmb9O9KgD0JIKpyI3nfS/o36fKIAezh2YFyY2301A==}
-    engines: {node: '>=18.17.0'}
-
-  '@clerk/types@4.48.0':
-    resolution: {integrity: sha512-zuWeEMxgtuxLKQCnzioSwuCFJVk1rVO+rXFhD8aBcyvBH6fadGp4IZzh7/Ov1HRiqpku5xPc010uubgC7jXMeQ==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.49.0':
@@ -593,8 +589,8 @@ packages:
   '@tailwindcss/postcss@4.0.14':
     resolution: {integrity: sha512-+uIR6KtKhla1XeIanF27KtrfYy+PX+R679v5LxbkmEZlhQe3g8rk+wKj7Xgt++rWGRuFLGMXY80Ek8JNn+kN/g==}
 
-  '@trpc/server@11.0.0-rc.839':
-    resolution: {integrity: sha512-qkF1Zt8wQKK+Lw+xgWLgQBfwJ3aW4InC5BMyMAEPyHN7ygSf0oDub3QOWJ9Ou9i36D4xjOz4/avQ7ZiedyApWg==}
+  '@trpc/server@11.0.0-rc.840':
+    resolution: {integrity: sha512-bk079wyaGk76w8bpAoiFrcNNEBbV5U0zoq7v4EIsslhB7EIJwd4Vyn52GtdZEpJOFuCCORxgGZxmn8slIo9tvg==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -1936,9 +1932,6 @@ packages:
   tsconfig-paths@3.15.0:
     resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
 
-  tslib@2.4.1:
-    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
-
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
@@ -2123,10 +2116,6 @@ snapshots:
     dependencies:
       '@clerk/types': 4.49.0
       tslib: 2.8.1
-
-  '@clerk/types@4.48.0':
-    dependencies:
-      csstype: 3.1.3
 
   '@clerk/types@4.49.0':
     dependencies:
@@ -2455,7 +2444,7 @@ snapshots:
       postcss: 8.5.3
       tailwindcss: 4.0.14
 
-  '@trpc/server@11.0.0-rc.839(typescript@5.8.2)':
+  '@trpc/server@11.0.0-rc.840(typescript@5.8.2)':
     dependencies:
       typescript: 5.8.2
 
@@ -3985,8 +3974,6 @@ snapshots:
       json5: 1.0.2
       minimist: 1.2.8
       strip-bom: 3.0.0
-
-  tslib@2.4.1: {}
 
   tslib@2.8.1: {}
 
