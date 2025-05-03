@@ -97,8 +97,8 @@ importers:
         specifier: ^9.0.12
         version: 9.0.14(typescript@5.8.3)
       ultracite:
-        specifier: 4.2.1
-        version: 4.2.1
+        specifier: 4.2.2
+        version: 4.2.2
 
 packages:
 
@@ -2245,8 +2245,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ultracite@4.2.1:
-    resolution: {integrity: sha512-xQjwWscDOpiBF6z6hKPOJSQrNgLXJOTZ738NUym58aqUbam0xB9trVZlG5td3LjmE98Z7qjpnspDxr3lwlLkAA==}
+  ultracite@4.2.2:
+    resolution: {integrity: sha512-vt6BYDZKvTGEprLnNNO1VzogyMXpBWDgBoFFNDgiflcouh3864ZY5R8XzRaKANuqftcK9KG4ORe5VJRnVRMvSA==}
     hasBin: true
 
   unbox-primitive@1.0.2:
@@ -4633,7 +4633,7 @@ snapshots:
 
   typescript@5.8.3: {}
 
-  ultracite@4.2.1:
+  ultracite@4.2.2:
     dependencies:
       commander: 12.1.0
 
