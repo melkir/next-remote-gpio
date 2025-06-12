@@ -95,7 +95,7 @@ importers:
         version: 1.9.4
       serwist:
         specifier: ^9.0.12
-        version: 9.0.14(typescript@5.8.3)
+        version: 9.0.15(typescript@5.8.3)
       ultracite:
         specifier: 4.2.10
         version: 4.2.10
@@ -1308,6 +1308,9 @@ packages:
   idb@8.0.2:
     resolution: {integrity: sha512-CX70rYhx7GDDQzwwQMDwF6kDRQi5vVs6khHUumDrMecBylKkwvZ8HWvKV08AGb7VbpoGCWUQ4aHzNDgoUiOIUg==}
 
+  idb@8.0.3:
+    resolution: {integrity: sha512-LtwtVyVYO5BqRvcsKuB2iUMnHwPVByPCXFXOpuU96IZPPoPN6xjOGxZQ74pgSVVLQWtUOYgyeL4GE98BY5D3wg==}
+
   ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
     engines: {node: '>= 4'}
@@ -1843,6 +1846,14 @@ packages:
 
   serwist@9.0.14:
     resolution: {integrity: sha512-vr4uqSeB7NxrAJeneCxhnEDDksovTcVAxkWyse4DFj/OP8UVJkdsSEJlzT94gRu5qrTZxKrb+pFrxsIStfWTWg==}
+    peerDependencies:
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  serwist@9.0.15:
+    resolution: {integrity: sha512-DyYLL73o3wOp0KwgSxCV6lk5KAgt7By5IHRoD6O5hJIrCQ09QwjOI8Fny7g2ZQjskcC8nRZZNVMP5GxcCREExw==}
     peerDependencies:
       typescript: '>=5.0.0'
     peerDependenciesMeta:
@@ -3440,6 +3451,8 @@ snapshots:
 
   idb@8.0.2: {}
 
+  idb@8.0.3: {}
+
   ignore@5.3.1: {}
 
   import-fresh@3.3.0:
@@ -3944,6 +3957,12 @@ snapshots:
   serwist@9.0.14(typescript@5.8.3):
     dependencies:
       idb: 8.0.2
+    optionalDependencies:
+      typescript: 5.8.3
+
+  serwist@9.0.15(typescript@5.8.3):
+    dependencies:
+      idb: 8.0.3
     optionalDependencies:
       typescript: 5.8.3
 
