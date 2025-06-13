@@ -27,8 +27,8 @@ importers:
         specifier: ^4.0.8
         version: 4.1.10
       '@trpc/server':
-        specifier: 11.4.0
-        version: 11.4.0(typescript@5.8.3)
+        specifier: 11.4.1
+        version: 11.4.1(typescript@5.8.3)
       '@types/node':
         specifier: 22.15.31
         version: 22.15.31
@@ -632,8 +632,8 @@ packages:
   '@tailwindcss/postcss@4.1.10':
     resolution: {integrity: sha512-B+7r7ABZbkXJwpvt2VMnS6ujcDoR2OOcFaqrLIo1xbcdxje4Vf+VgJdBzNNbrAjBj/rLZ66/tlQ1knIGNLKOBQ==}
 
-  '@trpc/server@11.4.0':
-    resolution: {integrity: sha512-ubE5LgMQuVH5PKcaFq0JJaHbAT3bBV8m1rdlLYEDjJG85zGrYak+6YkXIzUct/LYYXNg/FgyGrqOTM2FyzAlhQ==}
+  '@trpc/server@11.4.1':
+    resolution: {integrity: sha512-2C7VWfOzjZUoQpQEhBTNNbyzPW429ielchJdUGPhaczWhlHH4+9M7KLIZDkxmBdx/DkDwPxdA2OX5No3TfmJkQ==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -2583,7 +2583,7 @@ snapshots:
       postcss: 8.5.5
       tailwindcss: 4.1.10
 
-  '@trpc/server@11.4.0(typescript@5.8.3)':
+  '@trpc/server@11.4.1(typescript@5.8.3)':
     dependencies:
       typescript: 5.8.3
 
