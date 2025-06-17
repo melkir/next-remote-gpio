@@ -38,7 +38,7 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.0",
     "serwist": "^9.0.12",
     "ultracite": "4.2.11"
   },
