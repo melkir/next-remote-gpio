@@ -97,8 +97,8 @@ importers:
         specifier: ^9.0.12
         version: 9.0.15(typescript@5.8.3)
       ultracite:
-        specifier: 5.0.10
-        version: 5.0.10(@types/node@22.15.32)(jiti@2.4.2)(lightningcss@1.30.1)
+        specifier: 5.0.11
+        version: 5.0.11(@types/node@22.15.32)(jiti@2.4.2)(lightningcss@1.30.1)
 
 packages:
 
@@ -2472,8 +2472,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ultracite@5.0.10:
-    resolution: {integrity: sha512-+xZSolMhr900jy9ymGaiRIXj2flfF/48s6ymqSj8LVWqnOE2Msoq8vd+Gt6ROAD9evO9oejTBFMSeI6SIkWwyg==}
+  ultracite@5.0.11:
+    resolution: {integrity: sha512-i2IOo9wzazBETZC+nY+ZGFVLnEYGIF8yU1uQcIEFaqRxmQtOdBgjowKdCYZz8XYr01BLjdQrgLkyHiUsFeQy3w==}
     hasBin: true
 
   unbox-primitive@1.0.2:
@@ -5035,7 +5035,7 @@ snapshots:
 
   typescript@5.8.3: {}
 
-  ultracite@5.0.10(@types/node@22.15.32)(jiti@2.4.2)(lightningcss@1.30.1):
+  ultracite@5.0.11(@types/node@22.15.32)(jiti@2.4.2)(lightningcss@1.30.1):
     dependencies:
       '@clack/prompts': 0.11.0
       commander: 14.0.0
