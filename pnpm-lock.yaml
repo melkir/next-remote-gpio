@@ -97,8 +97,8 @@ importers:
         specifier: ^9.0.12
         version: 9.0.15(typescript@5.8.3)
       ultracite:
-        specifier: 5.0.9
-        version: 5.0.9(@types/node@22.15.32)(jiti@2.4.2)(lightningcss@1.30.1)
+        specifier: 5.0.10
+        version: 5.0.10(@types/node@22.15.32)(jiti@2.4.2)(lightningcss@1.30.1)
 
 packages:
 
@@ -2472,8 +2472,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ultracite@5.0.9:
-    resolution: {integrity: sha512-CP6ykOT/kxCH/pFaoiDlKpCaMX3bz+gbMJUaqpn2lj9k+8xdH74X+3JZmfLUyCnCFHC2+u8SqSZxIDs9Mq7OjQ==}
+  ultracite@5.0.10:
+    resolution: {integrity: sha512-+xZSolMhr900jy9ymGaiRIXj2flfF/48s6ymqSj8LVWqnOE2Msoq8vd+Gt6ROAD9evO9oejTBFMSeI6SIkWwyg==}
     hasBin: true
 
   unbox-primitive@1.0.2:
@@ -3273,7 +3273,7 @@ snapshots:
       '@typescript-eslint/type-utils': 7.2.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       '@typescript-eslint/utils': 7.2.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       '@typescript-eslint/visitor-keys': 7.2.0
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.29.0(jiti@2.4.2)
       graphemer: 1.4.0
       ignore: 5.3.1
@@ -3291,7 +3291,7 @@ snapshots:
       '@typescript-eslint/types': 7.2.0
       '@typescript-eslint/typescript-estree': 7.2.0(typescript@5.8.3)
       '@typescript-eslint/visitor-keys': 7.2.0
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.29.0(jiti@2.4.2)
     optionalDependencies:
       typescript: 5.8.3
@@ -3307,7 +3307,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 7.2.0(typescript@5.8.3)
       '@typescript-eslint/utils': 7.2.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.29.0(jiti@2.4.2)
       ts-api-utils: 1.3.0(typescript@5.8.3)
     optionalDependencies:
@@ -3321,7 +3321,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 7.2.0
       '@typescript-eslint/visitor-keys': 7.2.0
-      debug: 4.4.0
+      debug: 4.4.1
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
@@ -3847,7 +3847,7 @@ snapshots:
 
   eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@9.29.0(jiti@2.4.2)):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       enhanced-resolve: 5.18.1
       eslint: 9.29.0(jiti@2.4.2)
       eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.2.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@9.29.0(jiti@2.4.2))
@@ -4017,7 +4017,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
 
   esutils@2.0.3: {}
 
@@ -5035,7 +5035,7 @@ snapshots:
 
   typescript@5.8.3: {}
 
-  ultracite@5.0.9(@types/node@22.15.32)(jiti@2.4.2)(lightningcss@1.30.1):
+  ultracite@5.0.10(@types/node@22.15.32)(jiti@2.4.2)(lightningcss@1.30.1):
     dependencies:
       '@clack/prompts': 0.11.0
       commander: 14.0.0
