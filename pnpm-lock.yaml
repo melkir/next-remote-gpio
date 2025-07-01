@@ -97,8 +97,8 @@ importers:
         specifier: ^9.0.12
         version: 9.0.15(typescript@5.8.3)
       ultracite:
-        specifier: 5.0.26
-        version: 5.0.26(@types/node@22.15.34)(jiti@2.4.2)(lightningcss@1.30.1)
+        specifier: 5.0.27
+        version: 5.0.27(@types/node@22.15.34)(jiti@2.4.2)(lightningcss@1.30.1)
 
 packages:
 
@@ -202,10 +202,6 @@ packages:
 
   '@clerk/themes@2.2.53':
     resolution: {integrity: sha512-CuXBkOVP62H4znpo90IiSm+rFE/d3Lh/LNYCM+IMqey7BZUL8rsT6peQsEYEm1ukXKyLf+SIhM8fHwW+1u4uWA==}
-    engines: {node: '>=18.17.0'}
-
-  '@clerk/types@4.62.0':
-    resolution: {integrity: sha512-Ps/8eQHCuv2bZYgTG3+4xgxlltoX91GNf+G5TG/DSSmECgR657qGoasOrLLcMMyE+OZiX57k51oH137Ohhggog==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.62.1':
@@ -2470,8 +2466,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ultracite@5.0.26:
-    resolution: {integrity: sha512-52zOUf19d5P6JRi/AailI31jLI9xIQOD0/L2wB+w6YuRwFirjeSq7d2U6RkJbHKty2zK6Gsq0p4oJUcFbmNfrw==}
+  ultracite@5.0.27:
+    resolution: {integrity: sha512-0P+00N0K49xItXrWp/zFvz4ScsioYbu80IuhFc+3thwFCk8OWFZJDkpviMgkw/FQEHaJfXnlt3A4qYXRboS9rQ==}
     hasBin: true
 
   unbox-primitive@1.0.2:
@@ -2720,10 +2716,6 @@ snapshots:
     dependencies:
       '@clerk/types': 4.62.1
       tslib: 2.8.1
-
-  '@clerk/types@4.62.0':
-    dependencies:
-      csstype: 3.1.3
 
   '@clerk/types@4.62.1':
     dependencies:
@@ -5038,7 +5030,7 @@ snapshots:
 
   typescript@5.8.3: {}
 
-  ultracite@5.0.26(@types/node@22.15.34)(jiti@2.4.2)(lightningcss@1.30.1):
+  ultracite@5.0.27(@types/node@22.15.34)(jiti@2.4.2)(lightningcss@1.30.1):
     dependencies:
       '@clack/prompts': 0.11.0
       commander: 14.0.0
