@@ -40,7 +40,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.1.1",
     "serwist": "^9.0.12",
-    "ultracite": "5.0.32"
+    "ultracite": "5.0.35"
   },
   "pnpm": {
     "onlyBuiltDependencies": ["@clerk/shared"]
