@@ -95,7 +95,7 @@ importers:
         version: 2.1.2
       serwist:
         specifier: ^9.0.12
-        version: 9.1.0(typescript@5.8.3)
+        version: 9.1.1(typescript@5.8.3)
       ultracite:
         specifier: 5.0.46
         version: 5.0.46(@types/node@22.16.5)(jiti@2.4.2)(lightningcss@1.30.1)
@@ -2343,6 +2343,14 @@ packages:
 
   serwist@9.1.0:
     resolution: {integrity: sha512-oCiFkzRK15M6sZaO6i2RTRWgCa4ZJjgcNH37085GAYoJ9zbESxV2E3zd8AxIdhZZwrjlsuHqj9cTexfqq/9hjw==}
+    peerDependencies:
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  serwist@9.1.1:
+    resolution: {integrity: sha512-DGwnsIOUmCNOMMsKzmZ9854iW0L0TNYN/E6AGUdEtDP2ZAOxQm32gIQPL9ZJCrs56eLMwXtfTmWjcgNEl+1Jng==}
     peerDependencies:
       typescript: '>=5.0.0'
     peerDependenciesMeta:
@@ -4979,6 +4987,12 @@ snapshots:
   server-only@0.0.1: {}
 
   serwist@9.1.0(typescript@5.8.3):
+    dependencies:
+      idb: 8.0.3
+    optionalDependencies:
+      typescript: 5.8.3
+
+  serwist@9.1.1(typescript@5.8.3):
     dependencies:
       idb: 8.0.3
     optionalDependencies:
