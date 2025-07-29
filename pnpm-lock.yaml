@@ -19,7 +19,7 @@ importers:
         version: 7.2.1(react@19.1.1)
       '@radix-ui/react-slot':
         specifier: ^1.1.2
-        version: 1.2.3(@types/react@19.1.8)(react@19.1.1)
+        version: 1.2.3(@types/react@19.1.9)(react@19.1.1)
       '@serwist/next':
         specifier: ^9.0.12
         version: 9.1.1(next@15.4.4(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(typescript@5.8.3)
@@ -33,11 +33,11 @@ importers:
         specifier: 22.16.5
         version: 22.16.5
       '@types/react':
-        specifier: 19.1.8
-        version: 19.1.8
+        specifier: 19.1.9
+        version: 19.1.9
       '@types/react-dom':
-        specifier: 19.1.6
-        version: 19.1.6(@types/react@19.1.8)
+        specifier: 19.1.7
+        version: 19.1.7(@types/react@19.1.9)
       '@vercel/analytics':
         specifier: ^1.5.0
         version: 1.5.0(next@15.4.4(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)
@@ -955,13 +955,13 @@ packages:
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
 
-  '@types/react-dom@19.1.6':
-    resolution: {integrity: sha512-4hOiT/dwO8Ko0gV1m/TJZYk3y0KBnY9vzDh7W+DH17b2HFSOGgdj33dhihPeuy3l0q23+4e+hoXHV6hCC4dCXw==}
+  '@types/react-dom@19.1.7':
+    resolution: {integrity: sha512-i5ZzwYpqjmrKenzkoLM2Ibzt6mAsM7pxB6BCIouEVVmgiqaMj1TjaK7hnA36hbW5aZv20kx7Lw6hWzPWg0Rurw==}
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.8':
-    resolution: {integrity: sha512-AwAfQ2Wa5bCx9WP8nZL2uMZWod7J7/JSplxbTmBQ5ms6QpqNYm672H0Vu9ZVKVngQ+ii4R/byguVEUZQyeg44g==}
+  '@types/react@19.1.9':
+    resolution: {integrity: sha512-WmdoynAX8Stew/36uTSVMcLJJ1KRh6L3IZRx1PZ7qJtBqT3dYTgyDTx8H1qoRghErydW7xw9mSJ3wS//tCRpFA==}
 
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
@@ -3205,18 +3205,18 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@radix-ui/react-compose-refs@1.1.2(@types/react@19.1.8)(react@19.1.1)':
+  '@radix-ui/react-compose-refs@1.1.2(@types/react@19.1.9)(react@19.1.1)':
     dependencies:
       react: 19.1.1
     optionalDependencies:
-      '@types/react': 19.1.8
+      '@types/react': 19.1.9
 
-  '@radix-ui/react-slot@1.2.3(@types/react@19.1.8)(react@19.1.1)':
+  '@radix-ui/react-slot@1.2.3(@types/react@19.1.9)(react@19.1.1)':
     dependencies:
-      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.1)
+      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.9)(react@19.1.1)
       react: 19.1.1
     optionalDependencies:
-      '@types/react': 19.1.8
+      '@types/react': 19.1.9
 
   '@rollup/rollup-android-arm-eabi@4.45.1':
     optional: true
@@ -3439,11 +3439,11 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react-dom@19.1.6(@types/react@19.1.8)':
+  '@types/react-dom@19.1.7(@types/react@19.1.9)':
     dependencies:
-      '@types/react': 19.1.8
+      '@types/react': 19.1.9
 
-  '@types/react@19.1.8':
+  '@types/react@19.1.9':
     dependencies:
       csstype: 3.1.3
 
