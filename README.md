@@ -1,3 +1,17 @@
+# 🚨 Project Archived
+
+**This Next.js-based remote GPIO project has been archived in favor of the Rust-based implementation.**
+
+**Please use the new Rust-based remote GPIO project instead:**
+**https://github.com/melkir/remote-gpio**
+
+The Rust version provides better performance, cross-platform compatibility, and more robust GPIO handling for Raspberry Pi applications. The new implementation uses:
+- **Preact** for a lightweight frontend
+- **Axum** web framework serving static files directly
+- **WebSocket communication** instead of Pusher for better latency and fewer third-party dependencies
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
